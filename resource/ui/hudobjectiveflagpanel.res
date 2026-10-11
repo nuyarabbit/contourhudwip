@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-134"
+		"xpos"			"c-164"
 		"ypos"			"r85"
 		"zpos"			"1"
 		"wide"			"110"
@@ -52,49 +52,12 @@
 			"visible"	"0"
 		}
 	}
-	"LeftSideBGShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"0"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/ctf_left_shadow"
-		"scaleImage"	"1"
-
-		"pin_to_sibling"	"LeftSideBG"
-
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}
 
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c74"
+		"xpos"			"c54"
 		"ypos"			"r85"
 		"zpos"			"1"
 		"wide"			"110"
@@ -124,50 +87,13 @@
 			"visible"	"0"
 		}
 	}
-	"RightSideBGShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/ctf_right_shadow"
-		"scaleImage"	"1"
-
-		"pin_to_sibling"	"RightSideBG"
-
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}
 	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-139"
-		"ypos"			"r73"
+		"xpos"			"-19"
+		"ypos"			"-37"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -177,6 +103,8 @@
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
+
+		"pin_to_sibling"	"LeftSideBG"
 		
 		"if_hybrid"
 		{
@@ -213,7 +141,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"FlatHUDTransparentBlack"
+		"fgcolor"		"TanDarker"
 
 		"pin_to_sibling"	"BlueScore"
 		
@@ -242,8 +170,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c65"
-		"ypos"			"r73"
+		"xpos"			"-19"
+		"ypos"			"-37"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -253,6 +181,8 @@
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
+
+		"pin_to_sibling"	"RightSideBG"
 		
 		"if_hybrid"
 		{
@@ -289,7 +219,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"FlatHUDTransparentBlack"
+		"fgcolor"		"TanDarker"
 		
 		"pin_to_sibling"	"RedScore"
 
@@ -358,11 +288,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r35"
+		"xpos"			"c-61"
+		"ypos"			"r28"
 		"zpos"			"4"
-		"wide"			"140"
-		"tall"			"31"
+		"wide"			"120"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
@@ -371,41 +301,7 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}	
-			
-	"PlayingToBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"
-		"ypos"			"r70"
-		"zpos"			"3"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf_middle"
-		"scaleImage"	"1"
+		"border"				"TFFatLineBorderOpaque"
 		
 		"if_hybrid"
 		{
@@ -432,13 +328,15 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
-		"ypos"			"r95"
+		"xpos"			"-10"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"LeftSideBG"
 		
 		"if_hybrid"
 		{
@@ -471,14 +369,16 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
-		"ypos"			"r95"
+		"xpos"			"60"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 				
+		"pin_to_sibling"	"RightSideBG"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
