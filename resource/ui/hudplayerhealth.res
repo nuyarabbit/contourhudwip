@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"244"
+		"xpos"			"240"
 		"ypos"			"42"
 		"zpos"			"5"
 		"wide"			"100"
@@ -98,19 +98,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"4"
-		"ypos"			"-24"
+		"xpos"			"-16"
+		"ypos"			"-21"
 		"zpos"			"10"
-		"wide"			"50"
-		"tall"			"20"
+		"wide"			"25"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanDarker"
+		"textAlignment"	"center"
+		"font"			"HudFontMediumSmall"
+		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusBleedImage"
 	{

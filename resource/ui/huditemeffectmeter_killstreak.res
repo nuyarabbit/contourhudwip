@@ -42,7 +42,6 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
 		"image"			"replay/thumbnails/killstreak/killstreak_brown"
 		"scaleImage"	"1"
 

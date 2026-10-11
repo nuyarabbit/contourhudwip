@@ -127,7 +127,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"36"
+			"ypos"					"46"
 			"wide"					"p1"
 			"font"					"SpectatorKeyHints"
 		}
@@ -149,7 +149,7 @@
 		if_match
 		{
 			"xpos"			"36"
-			"ypos"			"15"
+			"ypos"			"25"
 			"zpos"			"10"
 		}
 	}
@@ -271,7 +271,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"36"
+			"ypos"					"46"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
 		}
@@ -293,7 +293,7 @@
 		if_match
 		{
 			"xpos"			"36"
-			"ypos"			"15"
+			"ypos"			"25"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -319,7 +319,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"31"
+			"ypos"					"41"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
 		}
@@ -342,7 +342,7 @@
 		if_match
 		{
 			"xpos"			"39"
-			"ypos"			"15"
+			"ypos"			"25"
 		}	
 	}
 }

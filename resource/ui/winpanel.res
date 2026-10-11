@@ -134,7 +134,7 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamLogo"
 			"xpos"			"66"
-			"ypos"			"0"
+			"ypos"			"8"
 			"zpos"			"10"
 			"wide"			"50"
 			"tall"			"50"
@@ -160,7 +160,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"191.25"
 			"image"		"replay/thumbnails/icons/team_logo_blue_brown"
 			"scaleImage"	"1"
 
@@ -250,7 +249,7 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedTeamLogo"
 			"xpos"			"268"
-			"ypos"			"-2"
+			"ypos"			"8"
 			"zpos"			"10"
 			"wide"			"50"
 			"tall"			"50"
@@ -276,7 +275,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"191.25"
 			"image"		"replay/thumbnails/icons/team_logo_red_brown"
 			"scaleImage"	"1"
 

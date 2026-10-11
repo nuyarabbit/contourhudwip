@@ -207,81 +207,20 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrameRed"
+	"BGFrame"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrameRed"
-		"xpos"				"c41"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"142"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorderRedBGOpaque"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-	"BGFrameRedShadow"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrameRedShadow"
-		"xpos"				"-3"
-		"ypos"				"-3"
-		"zpos"				"-2"
-		"wide"				"142"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"alpha"				"191.25"
-		"border"			"TFFatLineBorder"
-		"pin_to_sibling"	"BGFrameRed"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-
-	"BGFrameBlue"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrameBlue"
+		"fieldName"			"BGFrame"
 		"xpos"				"c-183"
-		"ypos"				"-5"
+		"ypos"				"14"
 		"zpos"				"0"
-		"wide"				"142"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorderBlueBGOpaque"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-	"BGFrameBlueShadow"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrameBluehadow"
-		"xpos"				"-3"
-		"ypos"				"-3"
-		"zpos"				"-2"
-		"wide"				"142"
-		"tall"				"28"
+		"wide"				"365"
+		"tall"				"20"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"alpha"				"191.25"
 		"border"			"TFFatLineBorder"
-		"pin_to_sibling"	"BGFrameBlue"
 
 		if_match
 		{
@@ -388,7 +327,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"15"
+				"ypos"			"25"
 				"tall"			"11"
 				"font"			"HudFontSmallBold"
 			}
@@ -399,7 +338,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"14"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
