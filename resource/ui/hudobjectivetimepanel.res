@@ -4,63 +4,28 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"20"
-		"ypos"			"14"
+		"xpos"			"0"
+		"ypos"			"-33"
 		"zpos"			"2"
-		"wide"			"70"
-		"tall"			"24"
+		"wide"			"110"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 
-		"src_corner_height"		"90"				// pixels inside the image
-		"src_corner_width"		"90"
-
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-
 		if_match
 		{
 			"visible"	"0"
 		}
-	}
-
-	"TimePanelBGShadow"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TimePanelBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"191.25"
-		"image"			"replay/thumbnails/square_brown"
-		"scaleImage"		"1"
-
-		"src_corner_height"		"90"				// pixels inside the image
-		"src_corner_width"		"90"
-
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-
-		if_match
-		{
-			"visible"	"0"
-		}
-
-		"pin_to_sibling"	"TimePanelBG"
 	}
 
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"23"
-		"ypos"				"16"
+		"xpos"				"26"
+		"ypos"				"12"
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
@@ -77,32 +42,6 @@
 		{
 			"visible"	"0"
 		}
-	}
-	"TimePanelProgressBarShadow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TimePanelProgressBarShadow"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/square_right_brown"
-		"scaleImage"		"1"
-
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"
-
-		if_match
-		{
-			"visible"	"0"
-		}
-
-		"pin_to_sibling"	"TimePanelBG"
 	}
 
 	"WaitingForPlayersLabel"
