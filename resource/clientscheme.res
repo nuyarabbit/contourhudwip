@@ -1555,8 +1555,17 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
+				"antialias" "1"
+				"custom"		"1" [$OSX]
+				"weight"	"500"
+			}
+		}
+		"ChalkboardTextMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"18"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
