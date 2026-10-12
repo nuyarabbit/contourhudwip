@@ -22,10 +22,10 @@
 		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/metal_blue"
+		"image"			"replay/thumbnails/mvm/hud_metal_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/metal_red"
-		"teambg_3"		"replay/thumbnails/mvm/metal_blue"
+		"teambg_2"		"replay/thumbnails/mvm/hud_metal_red"
+		"teambg_3"		"replay/thumbnails/mvm/hud_metal_blue"
 	}
 
 	"AccountBGShadow"

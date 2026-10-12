@@ -7,26 +7,10 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"33"
-		"tall"		"33"
+		"wide"		"36"
+		"tall"		"36"
 		"visible"	"1"
 		"enabled"	"1"
-	}
-
-	"ControlPointIconShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ControlPointIconShadow"
-		"xpos"		"3"
-		"ypos"		"3"
-		"zpos"		"-5"
-		"wide"		"33"
-		"tall"		"33"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"191.25"
-		"image"			"replay/thumbnails/cp/point_brown"
-		"scaleImage"	"1"
 	}
 	
 	"Countdown"

@@ -1,8 +1,0 @@
-"Patch"
-{
-	include materials/vgui/replay/thumbnails/mvm/hud_metal_red.vmt
-	insert
-	{
-		"$detail" "vgui/replay/thumbnails\mvm/metal_mask"
-	}
-}

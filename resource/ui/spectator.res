@@ -67,22 +67,37 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"tall"			"20"
+		"tall"			"26"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"			"FlatHUDBlack"
+		"bgcolor_override"			"TanDarker"
 	}
-
+	"NewTopBarLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"NewTopBarLine"
+		"xpos"			"0"
+		"ypos"			"24"
+		"zpos"			"-100"
+		"tall"			"3"		// this needs to match the size of BottomBar
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"bgcolor_override"			"TanDark"
+	}
 	"NewBottomBar"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"NewBottomBar"
 		"xpos"			"0"
-		"ypos"			"r20"
+		"ypos"			"r60"
 		"zpos"			"-100"
 		"tall"			"70"		// this needs to match the size of BottomBar
 		"wide"			"f0"
@@ -91,41 +106,40 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"			"FlatHUDBlack"
+		"bgcolor_override"			"TanDarker"
+	}
+	"NewBottomBarLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"NewBottomBarLine"
+		"xpos"			"0"
+		"ypos"			"r60"
+		"zpos"			"-100"
+		"tall"			"3"		// this needs to match the size of BottomBar
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"bgcolor_override"			"TanDark"
 	}
 
 	"TFLogoSpinner"
 	{
 		"ControlName"	"CTFLogoPanel"
 		"fieldname"		"TFLogoSpinner"
-		"xpos"			"-15"
-		"ypos"			"-15"
+		"xpos"			"-14"
+		"ypos"			"-13"
 		"zpos"			"500"
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"
 
-		"radius"		"15"
+		"radius"		"8"
 		"velocity"		"10"
 
-		"fgcolor_override"	"TanLight"
-	}
-
-	"SpinnerBackground"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"SpinnerBackground"
-		"xpos"			"-5"
-		"ypos"			"-5"
-		"zpos"			"-100"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/spectator/spectator_spinner"
-		"scaleImage"		"1"
-
-		"pin_to_sibling"	"TFLogoSpinner"
+		"fgcolor_override"	"TanDark"
 	}
 
 	"ReinforcementsLabel"

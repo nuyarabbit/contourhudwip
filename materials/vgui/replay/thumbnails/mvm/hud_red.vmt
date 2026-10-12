@@ -1,8 +1,0 @@
-"Patch"
-{
-	include materials/vgui/replay/thumbnails/mvm/hud_base.vmt
-	insert
-	{
-		"$baseTexture" "vgui/replay/thumbnails\mvm/gradient_red_opaque"
-	}
-}
