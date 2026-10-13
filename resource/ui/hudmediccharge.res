@@ -4,54 +4,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"r101"
-		"ypos"			"r77"
+		"xpos"			"r109"
+		"ypos"			"r87"
 		"zpos"			"0"
-		"wide"			"90"
-		"tall"			"90"
+		"wide"			"110"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ammo_blue"
+		"image"			"replay/thumbnails/mvm/ammo_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/ammo_red"
-		"teambg_3"		"replay/thumbnails/ammo_blue"
-	}
-
-	"BackgroundShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"-1"
-		"wide"			"90"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/ammo_brown"
-		"scaleImage"	"1"
-
-		"pin_to_sibling"	"Background"
-	}
-
-	"MeterCover"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MeterCover"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"90"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/medic_meter_cover_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/medic_meter_cover_red"
-		"teambg_3"		"replay/thumbnails/medic_meter_cover_blue"
-
-		"pin_to_sibling"	"Background"
+		"teambg_2"		"replay/thumbnails/mvm/ammo_red"
+		"teambg_3"		"replay/thumbnails/mvm/ammo_blue"
 	}
 
 	"ChargeLabel"
