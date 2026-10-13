@@ -146,15 +146,16 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"-45"
+		"xpos"			"-38"
 		"ypos"			"-16"
 		"wide"			"600"
-		"tall"			"17"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"TanDark"
 
 		"pin_to_sibling"	"TFLogoSpinner"
 	}
@@ -180,22 +181,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmallestBold"
-		"xpos"			"r246"	[$WIN32]
-		"ypos"			"0"
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
-		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"TanDarker"
+		"xpos"			"r204"
+		"ypos"			"4"
+		"wide"			"200"
 		"tall"			"20"
-		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
+		"border"		"ContourFlatSquircleBottomBrownBG"
 	}
 	"ClassOrTeamLabel"
 	{
@@ -374,6 +372,26 @@
 
 		"pin_to_sibling"	"RevKeyImage"
 	}
+
+	"TipBackground"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"	"TipBackground"
+		"xpos"			"14"
+		"ypos"			"r101"
+		"zpos"			"-2"
+		"wide"			"186"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/mvm/spectator_tips_panel"
+		"scaleImage"		"1"
+
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
+	}
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -387,23 +405,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%tip%"
-		"textAlignment"		"west"	[$WIN32]
+		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
+		"fgcolor_override"	"TanDarker"
 		"wrap"			"1"
-	}
-	"TipBackground"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"TipBackground"
-		"xpos"			"14"
-		"ypos"			"r120"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"108"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/spectator/spectator_tips"
-		"scaleImage"		"1"
 	}
 
 	"itempanel"

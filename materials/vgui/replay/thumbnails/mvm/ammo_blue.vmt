@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails\mvm/gradient_blue_opaque"
+	"$baseTexture" "vgui/replay/thumbnails\mvm/gradient_blue"
 	"$detail" "vgui/replay/thumbnails\mvm/ammo_test"
 
 	"$translucent" 1

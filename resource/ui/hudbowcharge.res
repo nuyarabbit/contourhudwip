@@ -26,33 +26,20 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ChargeMeterBG"
 		"xpos"			"c-30"
-		"ypos"			"c68"
+		"ypos"			"c85"
 		"zpos"			"0"
 		"wide"			"60"
-		"tall"			"50"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_blue"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
-		"teambg_2"			"replay/thumbnails/meter_counter_red"
-		"teambg_3"			"replay/thumbnails/meter_counter_blue"
-	}
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
 
-	"ChargeMeterBGShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ChargeMeterBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/meter_counter_black"
-		"scaleImage"	"1"
-
-		"pin_to_sibling"	"ChargeMeterBG"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 }

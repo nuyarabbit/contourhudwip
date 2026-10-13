@@ -46,7 +46,7 @@ Scheme
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
-
+		
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
@@ -200,8 +200,8 @@ Scheme
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"72 125 205 255"
-		TFColors.ChatTextTeamRed	"201 58 58 255"
+		TFColors.ChatTextTeamBlue	"153 204 255 255"
+		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -269,7 +269,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		
 		// this is the symbol font
 		"Marlett"
 		{
@@ -512,7 +512,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
@@ -567,7 +567,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "2 2 0 0"
@@ -818,7 +818,7 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"
+		"2"		"resource/HL2EP2.ttf"		
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"

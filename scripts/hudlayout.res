@@ -461,8 +461,8 @@
 		
 		"TextFont"		"HudFontSmallest"
 		
-		"TeamBlue"		"FlatHUDBlue"
-		"TeamRed"		"FlatHUDRed"
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
