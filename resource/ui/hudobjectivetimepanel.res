@@ -13,11 +13,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
-
-		if_match
-		{
-			"visible"	"0"
-		}
 	}
 
 	"TimePanelProgressBar"
@@ -37,11 +32,6 @@
 		"color_inactive"		"TanDarkerTransparent"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
-
-		if_match
-		{
-			"visible"	"0"
-		}
 	}
 
 	"WaitingForPlayersLabel"
@@ -61,15 +51,6 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"SpectatorKeyHints"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"46"
-			"wide"					"p1"
-			"font"					"SpectatorKeyHints"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -84,13 +65,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
-
-		if_match
-		{
-			"xpos"			"36"
-			"ypos"			"25"
-			"zpos"			"10"
-		}
 	}
 	"OvertimeLabel"
 	{
@@ -110,16 +84,6 @@
 		"wrap"			"0"
 		"fgcolor_override"		"26 26 26 255"
 		"font"			"HudFontSmallBold"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"35"
-			"wide"					"p1"
-			"tall"					"20"
-			"font"					"HudFontSmallBold"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -134,13 +98,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel_overtime"
 		"scaleImage"		"1"
-
-		if_match
-		{
-			"xpos"			"16"
-			"ypos"			"-4"
-			"zpos"			"12"
-		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -159,15 +116,6 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -205,15 +153,6 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"HudFontSmallestBold"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"46"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-		}
 	}	
 	"SetupBG"
 	{
@@ -228,12 +167,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
-
-		if_match
-		{
-			"xpos"			"36"
-			"ypos"			"25"
-		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -253,15 +186,6 @@
 		"wrap"			"0"
 		"fgcolor_override"	"TanLight"
 		"font"			"HudFontSmallestBold"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"41"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -277,11 +201,5 @@
 		"alpha"			"191.25"
 		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
-		
-		if_match
-		{
-			"xpos"			"39"
-			"ypos"			"25"
-		}	
 	}
 }

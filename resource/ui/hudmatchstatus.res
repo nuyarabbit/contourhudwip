@@ -207,19 +207,38 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrame"
+	"BGFrameLeft"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
+		"fieldName"			"BGFrameLeft"
 		"xpos"				"c-183"
-		"ypos"				"14"
+		"ypos"				"10"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"20"
+		"wide"				"144"
+		"tall"				"27"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"alpha"				"191.25"
+		"border"			"TFFatLineBorder"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
+	"BGFrameRight"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrameRight"
+		"xpos"				"c40"
+		"ypos"				"10"
+		"zpos"				"0"
+		"wide"				"144"
+		"tall"				"27"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 
 		if_match
@@ -292,19 +311,6 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
-
-		if_match
-		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmallBold"
-		}
 		
 		"TimePanelValue"
 		{
@@ -321,16 +327,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"25"
-				"tall"			"11"
-				"font"			"HudFontSmallBold"
-			}
 		}	
 	}
 	"TeamStatus"
@@ -338,7 +334,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"14"
+		"ypos"			"13"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
