@@ -31,19 +31,36 @@
 		"teambg_3"		"replay/thumbnails/mvm/cowmangler_blue"
 	}
 
-	"ItemEffectIcon"
+	"ItemEffectIconNew"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"1"
-		"ypos"			"3"
+		"fieldName"		"ItemEffectIconNew"
+		"xpos"			"0"
+		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/pyro_jetpack_off2"
+		"image"			"replay/thumbnails/icons/jetpack_tanlight"
 		"scaleImage"	"1"
+	}
+
+	"ItemEffectIconShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIconShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/jetpack_tandarker"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"ItemEffectIconNew"
 	}
 
 	"MeterBG"
@@ -85,26 +102,6 @@
 
 	"ItemEffectMeter"
 	{
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"30"
-		"ypos"					"39"
-		"zpos"					"2"
-		"wide"					"63"
-		"tall"					"11"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"TanDarkerTransparent"
-	}
-
-	"ItemEffectMeter"
-	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
@@ -121,6 +118,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
+		"bgcolor_override"		"TanDarkerTransparent"
 	}
 
 	"ItemEffectMeter2"
@@ -128,7 +126,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
-		"xpos"			"-32"
+		"xpos"			"-33"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"30"
@@ -141,6 +139,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
+		"bgcolor_override"		"TanDarkerTransparent"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
