@@ -100,6 +100,7 @@ Scheme
 		"TanLight"				"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
 		"TanDarkerTransparent"	"46 43 42 191.25"
+		"TanLightTransparent"	"235 226 202 191.25"
 
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"

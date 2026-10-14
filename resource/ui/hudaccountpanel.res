@@ -16,7 +16,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AccountBG"
 		"xpos"			"r93"
-		"ypos"			"r120"
+		"ypos"			"r119"
 		"zpos"			"0"
 		"wide"			"110"
 		"tall"			"110"
