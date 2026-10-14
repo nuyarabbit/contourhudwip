@@ -219,7 +219,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"border"			"TFFatLineBorderBlueBGOpaque"
 
 		if_match
 		{
@@ -239,7 +239,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"border"			"TFFatLineBorderRedBGOpaque"
 
 		if_match
 		{
