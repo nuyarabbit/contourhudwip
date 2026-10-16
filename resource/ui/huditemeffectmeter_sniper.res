@@ -1,1 +1,1 @@
-#base "huditemeffectmeter_demoman"
+#base "huditemeffectmeter_demoman.res"
