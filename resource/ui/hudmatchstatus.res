@@ -211,15 +211,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrameLeft"
-		"xpos"				"c-243"
+		"xpos"				"c-241"
 		"ypos"				"10"
 		"zpos"				"0"
-		"wide"				"144"
+		"wide"				"142"
 		"tall"				"24"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorderBlueBGOpaque"
+		"border"			"TFFatLineBorder"
 
 		if_match
 		{
@@ -239,7 +239,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorderRedBGOpaque"
+		"border"			"TFFatLineBorder"
 
 		if_match
 		{
@@ -318,10 +318,10 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"TanLight"
-			"xpos"			"46"
+			"xpos"			"42"
 			"ypos"			"7"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"46"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"

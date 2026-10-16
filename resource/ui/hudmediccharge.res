@@ -69,7 +69,7 @@
 		"fieldName"		"ChargeMeterBG"
 		"xpos"			"-25"
 		"ypos"			"-54"
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"71"
 		"tall"			"20"
 		"autoResize"	"0"

@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"26"
+		"xpos"				"23"
 		"ypos"				"12"
 		"zpos"				"4"	
 		"wide"				"20"
@@ -50,16 +50,16 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"ChalkboardText"
 	}			
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"-10"
+		"xpos"			"5"
 		"ypos"			"42"
 		"zpos"			"10"
-		"wide"			"140"
+		"wide"			"100"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -104,10 +104,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"16"
-		"ypos"			"33"
+		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"78"
-		"tall"			"19"
+		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -115,26 +115,21 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
+		"font"			"ChalkboardText"
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"
-		"ypos"			"30"
+		"xpos"			"21"
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"78"
+		"wide"			"68"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
+		"border"			"TFFatLineBorder"
 		"scaleImage"		"1"
-
-		if_match
-		{
-			"wide"	"0"
-		}
 	}	
 	"SetupLabel"
 	{
