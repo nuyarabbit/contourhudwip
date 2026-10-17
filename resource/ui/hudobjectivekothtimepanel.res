@@ -2,6 +2,8 @@
 {	
 	"HudKothTimeStatus"
 	{
+                tall                    "100"
+
 		if_match
 		{
 			"zpos"		"5"
@@ -42,6 +44,8 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+
+			"ypos_minmode"		"-5"
 		}	
 	}
 
@@ -79,6 +83,8 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+
+			"ypos_minmode"		"-5"
 		}	
 	}
 	
@@ -95,5 +101,7 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	
 		"scaleImage"		"1"	
+
+		"ypos_minmode"			"0"
 	}
 }

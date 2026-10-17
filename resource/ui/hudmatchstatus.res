@@ -216,8 +216,11 @@
 		"zpos"				"0"
 		"wide"				"142"
 		"tall"				"24"
-		"visible"			"0"
 
+		"tall_minmode"			"27"
+		"ypos_minmode"			"-5"
+
+		"visible"			"0"
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 
@@ -236,8 +239,11 @@
 		"zpos"				"0"
 		"wide"				"142"
 		"tall"				"24"
-		"visible"			"0"
 
+		"tall_minmode"			"27"
+		"ypos_minmode"			"-5"
+
+		"visible"			"0"
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 
@@ -298,7 +304,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -327,6 +333,8 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+
+			"ypos_minmode"		"-6"
 		}	
 	}
 	"TeamStatus"
@@ -341,6 +349,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+		"ypos_minmode"	"0"
 
 		"max_size"	"19"
 

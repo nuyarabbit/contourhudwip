@@ -9,6 +9,9 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+
+		"xpos_minmode"	"60"
+		"ypos_minmode"	"11"
 	}
 
 	HudWeaponAmmo
@@ -21,6 +24,9 @@
 		"zpos"	"2"
 		"wide"	"f0"
 		"tall"	"480"
+
+		"xpos_minmode"	"-60"
+		"ypos_minmode"	"16"
 	}
 	
 	HudObjectiveStatus
@@ -72,6 +78,9 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+
+		"xpos_minmode"	"-60"
+		"ypos_minmode"	"16"
 	}
 	
 	HudDemomanCharge
@@ -176,6 +185,9 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"0"
+
+		"xpos_minmode"					"-60"
+		"ypos_minmode"					"16"
 	}
 	
 	CHealthAccountPanel

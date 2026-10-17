@@ -5,6 +5,8 @@
 	HudItemEffectMeter
 	{
 		"xpos"			"r220"
+
+		"xpos_minmode"			"r280"
 	}
 	
 	"ItemEffectMeterBG"

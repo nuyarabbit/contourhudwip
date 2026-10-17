@@ -11,6 +11,9 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+
+		"xpos_minmode"			"r164"
+		"ypos_minmode"			"r78"
 	}
 	
 	"ItemEffectMeterBG"

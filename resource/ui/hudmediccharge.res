@@ -81,6 +81,8 @@
 		"border"	"TFFatLineBorder"
 
 		"pin_to_sibling"	"Background"
+
+		"tall_minmode"			"22"
 	}
 
 	"ChargeMeter"
@@ -103,6 +105,8 @@
 		"bgcolor_override"	"TanDarkerTransparent"
 
 		"pin_to_sibling"	"Background"
+
+		"tall_minmode"			"10"
 	}
 
 	"ChargeMeter1"
@@ -125,6 +129,8 @@
 		"bgcolor_override"	"TanDarkerTransparent"
 
 		"pin_to_sibling"	"Background"
+
+		"tall_minmode"			"10"
 	}
 
 	"ChargeMeter2"
@@ -146,6 +152,8 @@
 		"bgcolor_override"	"TanDarkerTransparent"
 
 		"pin_to_sibling"	"ChargeMeter1"
+
+		"tall_minmode"			"10"
 	}
 
 	"ChargeMeter3"
@@ -167,6 +175,8 @@
 		"bgcolor_override"	"TanDarkerTransparent"
 
 		"pin_to_sibling"	"ChargeMeter2"
+
+		"tall_minmode"			"10"
 	}
 
 	"ChargeMeter4"
@@ -188,6 +198,8 @@
 		"bgcolor_override"	"TanDarkerTransparent"
 
 		"pin_to_sibling"	"ChargeMeter3"
+
+		"tall_minmode"			"10"
 	}
 
 	"HealthClusterIcon"
