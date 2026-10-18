@@ -2,12 +2,7 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"130"
-
-		"if_killstreak_visible"
-		{
-			"xpos"			"160"
-		}
+		"xpos"			"40"
 	}
 			
 	"ItemEffectMeterBG"
@@ -15,24 +10,23 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
-		"ypos"			"10"
-		"wide"			"80"
-		"tall"			"40"
+		"ypos"			"-1"
+		"wide"			"110"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"visible_minmode"	"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
+		"image"			"replay/thumbnails/mvm/spellbook_blue"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/mvm/spellbook_red"
+		"teambg_3"		"replay/thumbnails/mvm/spellbook_blue"
 	}
 	
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"10"
-		"ypos"			"0"
+		"xpos"			"23"
+		"ypos"			"11"
 		"zpos"			"0"
 		"wide"			"64"
 		"tall"			"56"
@@ -46,10 +40,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"16"
-		"ypos"			"15"
-		"xpos_minmode"	"16"
-		"ypos_minmode"	"35"
+		"xpos"			"28"
+		"ypos"			"26"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -67,11 +59,11 @@
 		"font"			"Default"
 		"labelText"		"%actiontext%"
 		"textAlignment" "center"
-		"xpos"			"15"
-		"ypos"			"40"
+		"xpos"			"31"
+		"ypos"			"54"
 		"zpos"			"10"
 		"wide"			"51"
-		"tall"			"12"
+		"tall"			"14"
 		"fgcolor"		"tanlight"
 		"visible"		"1"
 		"border"		"TFFatLineBorderOpaque"
@@ -99,11 +91,11 @@
 		"font"			"ChalkboardTitle"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
-		"ypos"			"15"
+		"xpos"			"59"
+		"ypos"			"22"
 		"zpos"			"4"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"24"
 		"fgcolor"		"TanLight"
 	}
 	"CountTextShadow"
@@ -117,7 +109,7 @@
 		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"24"
 		"fgcolor"		"TanDarker"
 
 		"pin_to_sibling"	"CountText"
