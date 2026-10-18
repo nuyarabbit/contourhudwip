@@ -13,7 +13,6 @@
 		"MeterBG"		"TanDarkerTransparent"
 
 		"xpos_minmode"			"r169"
-		"ypos_minmode"			"r120"
 	}
 
 	"ItemEffectMeterBG"

@@ -67,8 +67,6 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-
-		"ypos_minmode"			"r58"
 	}
 	"AmmoInClipShadow"
 	{
@@ -103,8 +101,6 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-
-		"ypos_minmode"			"r52"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -139,8 +135,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-
-		"ypos_minmode"			"r58"
 	}
 	"AmmoNoClipShadow"
 	{

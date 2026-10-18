@@ -75,8 +75,6 @@
 		"textAlignment"	"center"	
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
-
-		"ypos_minmode"	"54"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

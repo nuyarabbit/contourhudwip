@@ -333,8 +333,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			"ypos_minmode"		"-6"
 		}	
 	}
 	"TeamStatus"

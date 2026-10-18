@@ -13,9 +13,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
-
-		"ypos_minmode"		"-50"
-		"tall_minmode"			"115"
 	}
 
 	"TimePanelProgressBar"
@@ -35,8 +32,6 @@
 		"color_inactive"		"TanDarkerTransparent"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
-
-		"ypos_minmode"			"-1"
 	}
 
 	"WaitingForPlayersLabel"
@@ -57,9 +52,7 @@
 		"wrap"			"0"
 		"fgcolor"		"White"
 		"font"			"ChalkboardText"
-
-		"ypos_minmode"		"43"
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -73,9 +66,8 @@
 		"enabled"		"1"
 		"border"			"TFFatLineBorder"
 		"scaleImage"		"1"
-
-		"ypos_minmode"		"42"
 	}
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -94,9 +86,6 @@
 		"wrap"			"0"
 		"fgcolor"		"TanLight"
 		"font"			"HudFontSmallBold"
-
-                "ypos_minmode"          "0"
-		"wide_minmode"		"78"
 	}			
 	"OvertimeBG"
 	{
@@ -111,12 +100,8 @@
 		"enabled"		"1"
 		"border"			"TFFatLineBorderOpaque"
 		"scaleImage"		"1"
-
-                "ypos_minmode"          "0"
-		"xpos_minmode"			"10"
-		"wide_minmode"		"90"
-
 	}
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -148,7 +133,8 @@
 		"enabled"		"1"
 		"border"			"TFFatLineBorder"
 		"scaleImage"		"1"
-	}	
+	}
+
 	"SetupLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -181,6 +167,7 @@
 		"border"			"TFFatLineBorder"
 		"scaleImage"		"1"
 	}
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"

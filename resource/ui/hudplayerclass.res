@@ -89,8 +89,6 @@
         "scaleImage"    "1"
         "teambg_2"      "replay/thumbnails/mvm/health_red"
         "teambg_3"      "replay/thumbnails/mvm/health_blue"
-
-        "ypos_minmode"			"r84"
 	}
 
 	"PlayerStatusClassImageBGShadow"
@@ -131,8 +129,6 @@
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
-
-        "ypos_minmode"          "r185"
 				
 		"model"
 		{

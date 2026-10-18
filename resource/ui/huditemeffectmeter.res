@@ -13,7 +13,6 @@
 		"MeterBG"		"TanDarkerTransparent"
 
 		"xpos_minmode"			"r234"
-		"ypos_minmode"			"r46"
 	}
 	
 	"ItemEffectMeterBG"
@@ -52,9 +51,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-
-		"ypos_minmode"					"34"
-		"tall_minmode"					"15"
 	}
 
 	"ItemEffectMeter"
@@ -75,7 +71,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"TanDarkerTransparent"
-
-		"ypos_minmode"					"31"
 	}					
 }
