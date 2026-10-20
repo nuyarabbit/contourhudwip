@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r109"
-		"ypos"			"r112"
-		"wide"			"100"
+		"ypos"			"r111"
+		"wide"			"140"
 		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"TanDarkerTransparent"
@@ -26,10 +26,10 @@
 		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/cowmangler_blue"
+		"image"			"replay/thumbnails/mvm/primary_meter_1_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/cowmangler_red"
-		"teambg_3"		"replay/thumbnails/mvm/cowmangler_blue"
+		"teambg_2"		"replay/thumbnails/mvm/primary_meter_1_red"
+		"teambg_3"		"replay/thumbnails/mvm/primary_meter_1_blue"
 	}
 
 	"AtomIcon"
@@ -116,6 +116,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"TanDarkerTransparent"
 	}
 }

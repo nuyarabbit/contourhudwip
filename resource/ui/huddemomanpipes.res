@@ -11,10 +11,10 @@
 		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/bison_blue"
+		"image"			"replay/thumbnails/mvm/meter_1_alt_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/bison_red"
-		"teambg_3"		"replay/thumbnails/mvm/bison_blue"
+		"teambg_2"		"replay/thumbnails/mvm/meter_1_alt_red"
+		"teambg_3"		"replay/thumbnails/mvm/meter_1_alt_blue"
 	}
 	
 	"ChargeLabel"
