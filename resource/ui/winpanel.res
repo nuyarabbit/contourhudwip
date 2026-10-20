@@ -224,7 +224,7 @@
 		"ypos"			"70"
 		"zpos"			"0"
 		"wide"			"p0.94"
-		"tall"			"45"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
@@ -349,11 +349,11 @@
 	}
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"15"
 		"ypos"			"116"
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"268"
 		"tall"			"125"
 		"autoResize"	"0"
@@ -361,9 +361,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
-		"PaintBackgroundType"	"0"
+		"border"		"TFFatLineBorderCropTop"
 	}
 	"TopPlayersLabel"
 	{	
