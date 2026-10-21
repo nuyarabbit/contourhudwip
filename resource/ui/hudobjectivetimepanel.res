@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"23"
+		"xpos"				"24"
 		"ypos"				"12"
 		"zpos"				"4"	
 		"wide"				"20"
@@ -50,7 +50,6 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"fgcolor"		"White"
 		"font"			"ChalkboardText"
 	}
 	"WaitingForPlayersBG"
@@ -91,10 +90,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"5"
-		"ypos"			"12"
+		"xpos"			"21"
+		"ypos"			"25"
 		"zpos"			"10"
-		"wide"			"100"
+		"wide"			"68"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"

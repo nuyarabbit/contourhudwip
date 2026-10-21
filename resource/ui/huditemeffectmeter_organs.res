@@ -27,10 +27,10 @@
 		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/organs_blue"
+		"image"			"replay/thumbnails/mvm/count_panel_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/organs_red"
-		"teambg_3"		"replay/thumbnails/mvm/organs_blue"
+		"teambg_2"		"replay/thumbnails/mvm/count_panel_red"
+		"teambg_3"		"replay/thumbnails/mvm/count_panel_blue"
 	}
 	
 	"ItemEffectMeterLabel"

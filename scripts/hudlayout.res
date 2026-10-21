@@ -216,8 +216,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"36"
+		"ypos"		"r68"
 		"wide"		"f0"
 		"tall"		"480"
 	}
@@ -556,7 +556,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"130"
-		"ypos"			"r126"
+		"ypos"			"r125"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
