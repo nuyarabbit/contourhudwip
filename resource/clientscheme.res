@@ -3354,8 +3354,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
+			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"140"				// pixels inside the image
 			"src_corner_width"		"140"
 
@@ -3415,6 +3414,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
+			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"140"				// pixels inside the image
 			"src_corner_width"		"140"
 
