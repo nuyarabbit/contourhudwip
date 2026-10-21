@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"10"
+		"xpos"			"9"
 		"ypos"			"-17"
 		"zpos"			"0"
 		"wide"			"110"

@@ -11,6 +11,7 @@
 
 	"ItemEffectMeterBG"
 	{
+		"xpos"			"10"
 		"image"			"replay/thumbnails/mvm/meter_3_blue"
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/mvm/meter_3_red"

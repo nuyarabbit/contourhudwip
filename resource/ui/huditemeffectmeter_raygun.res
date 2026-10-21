@@ -69,14 +69,37 @@
 		"fieldName"		"MeterBG"
 		"xpos"			"28"
 		"ypos"			"34"
-		"zpos"			"0"
+		"zpos"			"3"
 		"wide"			"54"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"			"TFFatLineBorder"
+		"border"			"TFFatLineBorderClearBG"
 		"scaleImage"	"1"
 	}
+	"MeterFG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MeterFG"
+		"xpos"			"28"
+		"ypos"			"34"
+		"zpos"			"2"
+		"wide"			"54"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/points/point_neutral_hole"
+		"scaleImage"	"1"
+		"teambg_2"			"replay/thumbnails/mvm/points/point_neutral_hole"
+		"teambg_3"			"replay/thumbnails/mvm/points/point_neutral_hole"
+
+		"src_corner_height"		"140"				// pixels inside the image
+		"src_corner_width"		"140"
+
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
+	}
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -85,7 +108,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"54"
-		"tall"					"12"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -105,10 +128,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"33"
-		"ypos"					"39"
-		"zpos"					"2"
+		"ypos"					"40"
+		"zpos"					"1"
 		"wide"					"44"
-		"tall"					"11"
+		"tall"					"8"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

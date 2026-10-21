@@ -25,21 +25,22 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ChargeMeterBG"
-		"xpos"			"c-30"
-		"ypos"			"c85"
+		"xpos"			"c-33"
+		"ypos"			"c82"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"16"
+		"wide"			"66"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"				"../hud/color_panel_brown"
 		"scaleImage"	"1"
 		"teambg_2"			"../hud/color_panel_red"
 		"teambg_3"			"../hud/color_panel_blu"
 
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"src_corner_height"		"140"				// pixels inside the image
+		"src_corner_width"		"140"
+
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
 	}
 }

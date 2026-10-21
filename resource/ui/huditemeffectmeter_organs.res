@@ -51,6 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
+		"fgcolor_override"				"TanLight"
 	}
 
 	"MeterIcon"
@@ -120,7 +121,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"				"White"
+		"fgcolor"				"TanLight"
 		"font"					"ChalkboardTitle"
 	}	
 }
