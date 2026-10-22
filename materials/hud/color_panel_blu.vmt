@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/mvm/points/point_blue"
+	"$basetexture"	"vgui/replay/thumbnails/mvm/border/panel_blue_normal"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

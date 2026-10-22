@@ -31,6 +31,20 @@
 		"teambg_2"		"replay/thumbnails/mvm/primary_meter_1_red"
 		"teambg_3"		"replay/thumbnails/mvm/primary_meter_1_blue"
 	}
+	"ItemEffectMeterBGMask"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"0"
+		"ypos"			"-17"
+		"zpos"			"4"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/primary_meter_1_mask"
+		"scaleImage"	"1"
+	}
 
 	"AtomIcon"
 	{
@@ -38,7 +52,7 @@
 		"fieldName"		"AtomIcon"
 		"xpos"			"4"
 		"ypos"			"8"
-		"zpos"			"2"
+		"zpos"			"6"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -52,7 +66,7 @@
 		"fieldName"		"AtomIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -63,52 +77,15 @@
 		"pin_to_sibling"	"AtomIcon"
 	}
 
-	"MeterBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MeterBG"
-		"xpos"			"25"
-		"ypos"			"34"
-		"zpos"			"2"
-		"wide"			"72"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"			"TFFatLineBorderClearBG"
-		"scaleImage"	"1"
-	}
-	"MeterFG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MeterFG"
-		"xpos"			"25"
-		"ypos"			"34"
-		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/points/point_neutral_hole"
-		"scaleImage"	"1"
-		"teambg_2"			"replay/thumbnails/mvm/points/point_neutral_hole"
-		"teambg_3"			"replay/thumbnails/mvm/points/point_neutral_hole"
-
-		"src_corner_height"		"140"				// pixels inside the image
-		"src_corner_width"		"140"
-
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"
-	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"30"
+		"xpos"					"0"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"63"
-		"tall"					"13"
+		"wide"					"116"
+		"tall"					"14"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -127,11 +104,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"32"
-		"ypos"					"40"
+		"xpos"					"25"
+		"ypos"					"42"
 		"zpos"					"1"
-		"wide"					"58"
-		"tall"					"8"
+		"wide"					"68"
+		"tall"					"11"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -140,6 +117,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"TanLight"
-		"bgcolor_override"		"TanDarkerTransparent"
+		"bgcolor_override"		"TransparentBlack"
 	}
 }

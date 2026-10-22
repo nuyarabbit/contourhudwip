@@ -31,6 +31,20 @@
 		"teambg_2"		"replay/thumbnails/mvm/primary_meter_2_red"
 		"teambg_3"		"replay/thumbnails/mvm/primary_meter_2_blue"
 	}
+	"ItemEffectMeterBGMask"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"0"
+		"ypos"			"-17"
+		"zpos"			"4"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/primary_meter_2_mask"
+		"scaleImage"	"1"
+	}
 
 	"AtomIcon"
 	{
@@ -63,43 +77,6 @@
 		"pin_to_sibling"	"AtomIcon"
 	}
 
-	"MeterBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MeterBG"
-		"xpos"			"25"
-		"ypos"			"36"
-		"zpos"			"3"
-		"wide"			"72"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"			"TFFatLineBorderClearBG"
-		"scaleImage"	"1"
-	}
-	"MeterFG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MeterFG"
-		"xpos"			"25"
-		"ypos"			"36"
-		"zpos"			"2"
-		"wide"			"72"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/points/point_neutral_hole"
-		"scaleImage"	"1"
-		"teambg_2"			"replay/thumbnails/mvm/points/point_neutral_hole"
-		"teambg_3"			"replay/thumbnails/mvm/points/point_neutral_hole"
-
-		"src_corner_height"		"140"				// pixels inside the image
-		"src_corner_width"		"140"
-
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"
-	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -127,11 +104,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"30"
+		"xpos"					"24"
 		"ypos"					"42"
 		"zpos"					"1"
-		"wide"					"63"
-		"tall"					"8"
+		"wide"					"68"
+		"tall"					"12"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -139,6 +116,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"TanDarkerTransparent"
+		"bgcolor_override"		"TransparentBlack"
 	}
 }
