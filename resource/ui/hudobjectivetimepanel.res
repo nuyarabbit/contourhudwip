@@ -139,7 +139,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"ypos"			"31"
+		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"20"
@@ -156,14 +156,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"25"
-		"ypos"			"25"
+		"xpos"			"18"
+		"ypos"			"29"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"78"
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"			"TFFatLineBorder"
+		"border"			"TFFatLineBorderCropTop"
 		"scaleImage"		"1"
 	}
 

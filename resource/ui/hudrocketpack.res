@@ -30,6 +30,20 @@
 		"teambg_2"		"replay/thumbnails/mvm/primary_meter_1_red"
 		"teambg_3"		"replay/thumbnails/mvm/primary_meter_1_blue"
 	}
+	"ItemEffectMeterBGMask"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBGMask"
+		"xpos"			"0"
+		"ypos"			"-17"
+		"zpos"			"4"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/primary_meter_1_mask"
+		"scaleImage"	"1"
+	}
 
 	"ItemEffectIconNew"
 	{
@@ -63,30 +77,15 @@
 		"pin_to_sibling"	"ItemEffectIconNew"
 	}
 
-	"MeterBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MeterBG"
-		"xpos"			"25"
-		"ypos"			"34"
-		"zpos"			"0"
-		"wide"			"72"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"			"TFFatLineBorder"
-		"scaleImage"	"1"
-	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"					"30"
+		"xpos"					"27"
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"63"
-		"tall"					"11"
+		"tall"					"14"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -105,11 +104,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
-		"xpos"			"30"
-		"ypos"			"39"
+		"xpos"			"26"
+		"ypos"			"42"
 		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"11"
+		"wide"			"32"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -118,7 +117,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"bgcolor_override"		"TanDarkerTransparent"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	"ItemEffectMeter2"
@@ -126,11 +125,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
-		"xpos"			"-33"
+		"xpos"			"-35"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"11"
+		"wide"			"32"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -139,7 +138,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"bgcolor_override"		"TanDarkerTransparent"
+		"bgcolor_override"		"TransparentBlack"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
