@@ -3346,7 +3346,7 @@ Scheme
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		
 		TFThinLineBorder
@@ -3355,8 +3355,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3367,8 +3367,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_brown_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3379,8 +3379,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3391,8 +3391,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3403,8 +3403,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3415,8 +3415,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3427,8 +3427,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_red_more_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3439,8 +3439,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3451,8 +3451,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_blu_more_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3463,8 +3463,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_blu_opaque"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3475,8 +3475,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"../hud/color_panel_clear"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
@@ -3498,8 +3498,8 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"replay/thumbnails/mvm/border/panel_croptop_brown"
-			"src_corner_height"		"140"				// pixels inside the image
-			"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"

@@ -39,7 +39,7 @@
 		"ypos"			"-20"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"52"
+		"tall"			"56"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -49,7 +49,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTextMedium"
+		"font"			"HudFontMedium"
 
 		"pin_to_sibling"	"Background"
 	}
@@ -62,7 +62,7 @@
 		"ypos"			"-20"
 		"zpos"			"2"
 		"wide"			"110"
-		"tall"			"50"
+		"tall"			"56"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -72,7 +72,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTextMedium"
+		"font"			"HudFontMedium"
 
 		"pin_to_sibling"	"Background"
 	}

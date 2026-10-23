@@ -245,11 +245,11 @@
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
 			
-		"src_corner_height"		"140"				// pixels inside the image
-		"src_corner_width"		"140"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"
 		}
 		
 		"FreezeLabel"
@@ -349,11 +349,11 @@
 				"image"			"../hud/color_panel_brown"
 				"scaleImage"		"1"	
 				
-				"src_corner_height"		"23"				// pixels inside the image
-				"src_corner_width"		"23"
-					
-				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"	
+				"src_corner_height"		"40"				// pixels inside the image
+				"src_corner_width"		"40"
+
+				"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"10"
 			}
 			"NemesisIcon"
 			{

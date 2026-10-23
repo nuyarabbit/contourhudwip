@@ -1,4 +1,4 @@
-"Resource/UI/ObjectiveStatusEscort.res"
+ "Resource/UI/ObjectiveStatusEscort.res"
 {
 	"ObjectiveStatusEscort"
 	{
@@ -38,9 +38,9 @@
 
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"119"
 			"zpos"			"3"
-			"tall"			"12"
+			"tall"			"13"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 
@@ -67,9 +67,9 @@
 
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
-			"zpos"			"6"
-			"tall"			"12"
+			"ypos"			"119"
+			"zpos"			"3"
+			"tall"			"13"
 			"visible"		"1"
 		}
 	}
@@ -79,10 +79,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"
 		"xpos"			"59"
-		"ypos"			"111"
+		"ypos"			"108"
 		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"34"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -110,30 +110,28 @@
 		"if_multiple_trains"
 		{
 			"xpos"			"59"
-			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"zpos"			"4"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"ypos"			"108"
 		}
 
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"ypos"			"108"
 		}
 
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_square"
+			"image"			"../hud/cart_home_red_opaque"
 		}
 
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_square"
+			"image"			"../hud/cart_home_blue_opaque"
 		}
 	}
 
@@ -142,10 +140,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"
 		"xpos"			"60"
-		"ypos"			"111"
+		"ypos"			"108"
 		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"34"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -158,10 +156,8 @@
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
-			"ypos"			"114"
+			"ypos"			"108"
 			"zpos"			"5"
-			"wide"			"12"
-			"tall"			"12"
 		}
 	}
 
@@ -254,9 +250,8 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"43"
-				"wide"			"30"
-				"tall"			"30"
+				"ypos"			"52"
+				"zpos"			"14"
 			}
 		}
 
@@ -291,9 +286,8 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"71"
-				"wide"			"30"
-				"tall"			"30"
+				"ypos"			"52"
+				"zpos"			"14"
 			}
 		}
 
@@ -312,7 +306,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_alert"
+			"image"			"replay/thumbnails/mvm/cart/cart_alert"
 			"scaleImage"	"1"
 
 			"if_multiple_trains_bottom"
