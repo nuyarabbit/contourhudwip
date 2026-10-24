@@ -85,7 +85,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"116"
-		"tall"					"14"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -96,7 +96,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"				"TanLight"
-		"font"					"ChalkboardText"
+		"font"					"HudFontSmall"
 	}
 
 	"ItemEffectMeter"

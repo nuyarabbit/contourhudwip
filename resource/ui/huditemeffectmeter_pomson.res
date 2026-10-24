@@ -81,11 +81,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"22"
 		"ypos"					"24"
 		"zpos"					"2"
 		"wide"					"72"
-		"tall"					"14"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -96,7 +96,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"				"TanLight"
-		"font"					"ChalkboardText"
+		"font"					"HudFontSmall"
 	}
 
 	"ItemEffectMeter"

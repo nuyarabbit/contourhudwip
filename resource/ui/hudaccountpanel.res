@@ -86,7 +86,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"-18"
-		"ypos"			"-38"
+		"ypos"			"-41"
 		"zpos"			"2"
 		"wide"			"56"
 		"tall"			"28"
@@ -100,7 +100,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"TanLight"
-		"font"			"ChalkboardTextMedium"
+		"font"			"HudFontMediumSmall"
 
 		"pin_to_sibling"	"AccountBG"
 	}
@@ -123,7 +123,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"TanDarker"
-		"font"			"ChalkboardTextMedium"
+		"font"			"HudFontMediumSmall"
 
 		"pin_to_sibling"	"AccountValue"
 	}

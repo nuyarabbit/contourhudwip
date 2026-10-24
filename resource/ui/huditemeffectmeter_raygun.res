@@ -96,7 +96,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"				"TanLight"
-		"font"					"ChalkboardText"
+		"font"					"HudFontSmallest"
 	}
 
 	"ItemEffectMeter"

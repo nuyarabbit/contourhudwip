@@ -90,10 +90,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"ChalkboardTitleMedium"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"r43"
-		"ypos"			"r46"
+		"ypos"			"r43"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"26"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"ChalkboardTitleMedium"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TanDarker"
 		"xpos"			"-1"
 		"ypos"			"-1"
