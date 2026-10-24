@@ -1,6 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/mvm/primary_meter_2_mask"
+	"$color"		"{50 47 46}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
