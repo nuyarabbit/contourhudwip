@@ -49,9 +49,9 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"0"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"90"
 	}	
 
 	HudItemEffectMeter
@@ -1001,7 +1001,7 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"0"
 		"ypos"					"65"
 		"wide"					"f0"
 		"tall"					"100"

@@ -123,10 +123,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"21"
+		"xpos"			"18"
 		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"74"
 		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"1"
