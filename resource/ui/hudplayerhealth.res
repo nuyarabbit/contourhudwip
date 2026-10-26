@@ -5,24 +5,50 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"-185"
+		"xpos"			"-184"
 		"ypos"			"r101"
 		"zpos"			"2"
+
+		"xpos_minmode"	"-105"
+
 		"wide"			"f0"
 		"tall"			"120"
+
 		"visible"		"1"
 		"enabled"		"1"	
+
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 
+	"NewPlayerStatusClassImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"NewPlayerStatusClassImageBG"
+
+        "xpos"          "188"
+        "ypos"          "14"
+        "zpos"          "1"
+
+        "wide"          "110"
+        "tall"          "110"
+
+        "visible"       "1"
+        "enabled"       "1"
+
+        "image"         "replay/thumbnails/mvm/health_blue_alt"
+        "scaleImage"    "1"
+        "teambg_2"      "replay/thumbnails/mvm/health_red_alt"
+        "teambg_3"      "replay/thumbnails/mvm/health_blue_alt"
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"201"
-		"ypos"			"33"
+		"xpos"			"265"
+		"ypos"			"12"
 		"zpos"			"4"
 		"wide"			"55"
 		"tall"			"55"
@@ -35,22 +61,24 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"198"
-		"ypos"			"30"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"3"
-		"wide"			"61"
-		"tall"			"61"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/health_inner"
 		"scaleImage"	"1"
+
+		"pin_to_sibling"		"PlayerStatusHealthImage"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"201"
-		"ypos"			"33"
+		"xpos"			"265"
+		"ypos"			"12"
 		"zpos"			"1"
 		"wide"			"55"
 		"tall"			"55"
@@ -64,8 +92,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"240"
-		"ypos"			"42"
+		"xpos"			"191"
+		"ypos"			"51"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"35"
@@ -73,7 +101,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -89,7 +117,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanDarker"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"
@@ -112,6 +140,7 @@
 
 		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

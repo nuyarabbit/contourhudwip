@@ -1,0 +1,138 @@
+"Resource/UI/HudItemEffectMeter_Demoman.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"-53"
+		"ypos"			"-11"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"480"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+
+		"xpos_minmode"			"7"
+	}
+
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"105"
+		"ypos"			"r63"
+		"zpos"			"0"
+		"wide"			"23"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/killstreak/killstreak_blue"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/killstreak/killstreak_red"
+		"teambg_3"		"replay/thumbnails/killstreak/killstreak_blue"
+	}
+
+	"ItemEffectMeterBGShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterBGShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-1"
+		"wide"			"23"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/killstreak/killstreak_brown"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"ItemEffectMeterBG"
+	}
+
+	"ItemEffectMeter"
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}
+
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"10"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"44"
+		"tall"					"24"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor"				"TanLight"
+		"font"					"HudFontMediumSmall"
+
+		"pin_to_sibling"		"ItemEffectMeterBG"
+	}
+
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"44"
+		"tall"					"24"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor"				"TanDarker"
+		"font"					"HudFontMediumSmall"
+
+		"pin_to_sibling"		"ItemEffectMeterCount"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"25"
+		"ypos"					"27"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"0"
+		"enabled"				"0"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KillStreak"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+}

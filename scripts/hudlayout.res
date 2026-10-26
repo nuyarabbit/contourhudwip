@@ -3,24 +3,28 @@
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
+
 		"visible" "1"
 		"enabled" "1"
+
 		"xpos"	"0"
 		"ypos"	"0"
+
 		"wide"	"f0"
 		"tall"	"480"
-
-		"xpos_minmode"	"60"
 	}
 
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
+
 		"visible" "1"
 		"enabled" "1"
+
 		"xpos"	"0"
 		"ypos"	"0"
 		"zpos"	"2"
+
 		"wide"	"f0"
 		"tall"	"480"
 

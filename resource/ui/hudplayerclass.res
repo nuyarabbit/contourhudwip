@@ -12,6 +12,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"		
+
 	}
 	"PlayerStatusClassImage"
 	{
@@ -61,52 +62,42 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-        "xpos"          "42"
-        "ypos"          "r96"
+
+        "xpos"          "4"
+        "ypos"          "r88"
         "zpos"          "1"
-        "wide"          "110"
-        "tall"          "110"
-        "visible"       "1"
-        "enabled"       "1"
-        "image"         "replay/thumbnails/mvm/health_blue"
+
+        "wide"          "0"
+        "tall"          "0"
+
+        "visible"       "0"
+        "enabled"       "0"
+
+        "image"         "replay/thumbnails/mvm/health_blue_alt"
         "scaleImage"    "1"
-        "teambg_2"      "replay/thumbnails/mvm/health_red"
-        "teambg_3"      "replay/thumbnails/mvm/health_blue"
+        "teambg_2"      "replay/thumbnails/mvm/health_red_alt"
+        "teambg_3"      "replay/thumbnails/mvm/health_blue_alt"
 	}
 
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-        "xpos"          "42"
-        "ypos"          "r96"
+
+        "xpos"          "4"
+        "ypos"          "r88"
         "zpos"          "1"
-        "wide"          "110"
-        "tall"          "110"
-        "visible"       "1"
-        "enabled"       "1"
-        "image"         "replay/thumbnails/mvm/health_blue"
+
+        "wide"          "0"
+        "tall"          "0"
+
+        "visible"       "0"
+        "enabled"       "0"
+
+        "image"         "replay/thumbnails/mvm/health_blue_alt"
         "scaleImage"    "1"
-        "teambg_2"      "replay/thumbnails/mvm/health_red"
-        "teambg_3"      "replay/thumbnails/mvm/health_blue"
-	}
-
-	"PlayerStatusClassImageBGShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusClassImageBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"1"
-        "wide"          "100"
-        "tall"          "92"
-		"visible"		"0"
-		"enabled"		"0"
-		"alpha"			"191.25"
-		"image"			"replay/thumbnails/health_brown"
-		"scaleImage"	"1"
-
-		"pin_to_sibling"	"PlayerStatusClassImageBG"
+        "teambg_2"      "replay/thumbnails/mvm/health_red_alt"
+        "teambg_3"      "replay/thumbnails/mvm/health_blue_alt"
 	}
 
 	"classmodelpanel"
@@ -114,9 +105,12 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"140"
+		"xpos"			"118"
         "ypos"          "r175"
         "zpos"          "0"
+
+		"xpos_minmode"			"0"
+
         "wide"          "125"
         "tall"          "175"
 		"autoResize"	"0"
@@ -137,12 +131,15 @@
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
+
 			"origin_x" "200"
 			"origin_y" "0"
 			"origin_z" "-60"
+
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
+
 			"spotlight" "1"
 		
 			"modelname"		""
@@ -196,9 +193,11 @@
 			"Medic"
 			{
 				"fov"			"20"
+
 				"angles_x"		"-10"
 				"angles_y"		"210"
 				"angles_z"		"0"
+
 				"origin_x"		"140"
 				"origin_y"		"-2"
 				"origin_z"		"-80"
@@ -206,9 +205,11 @@
 			"Heavy"
 			{
 				"fov"			"20"
+
 				"angles_x"		"-10"
 				"angles_y"		"210"
 				"angles_z"		"0"
+
 				"origin_x"		"140"
 				"origin_y"		"0"
 				"origin_z"		"-75"
@@ -216,9 +217,11 @@
 			"Pyro"
 			{
 				"fov"			"20"
+
 				"angles_x"		"-10"
 				"angles_y"		"205"
 				"angles_z"		"0"
+
 				"origin_x"		"140"
 				"origin_y"		"5"
 				"origin_z"		"-70"
