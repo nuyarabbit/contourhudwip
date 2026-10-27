@@ -40,10 +40,12 @@
 		"zpos"			"-1"
 		"wide"			"110"
 		"tall"			"110"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/mvm/ammo_high"
 		"scaleImage"	"1"
+
+		"alpha"			"0"
 
 		"pin_to_sibling"	"Background"
 	}

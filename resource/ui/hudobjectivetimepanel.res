@@ -200,4 +200,26 @@
 		"border"			"TFFatLineBorder"
 		"scaleImage"		"1"
 	}
+
+	"MatchHudActiveTimerBG" // Re-created for Match HUD
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MatchHudActiveTimerBG"
+		"xpos"				"22"
+		"xpos_minmode"		"18"
+		"ypos"				"2"
+		"ypos_minmode"		"2"
+		"zpos"				"0"
+		"wide"				"70"
+		"wide_minmode"		"64"
+		"tall"				"32"
+		"tall_minmode"		"30"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_active_bg"
+		"scaleImage"		"1"
+		"alpha"				"210"
+
+		"pin_to_sibling" 	"TimePanelValue"
+	}
 }
