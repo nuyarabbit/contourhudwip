@@ -16,6 +16,7 @@
 		"teambg_2"		"replay/thumbnails/mvm/ammo_alt_red"
 		"teambg_3"		"replay/thumbnails/mvm/ammo_alt_blue"
 	}
+
 	"BackgroundMask"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -29,6 +30,22 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/mvm/ammo_alt_mask"
 		"scaleImage"	"1"
+	}
+	"BackgroundHigh"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundHigh"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/ammo_high"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"Background"
 	}
 
 	"ChargeLabel"
@@ -86,7 +103,7 @@
 		"ypos"			"-59"
 		"zpos"			"2"
 		"wide"			"67"
-		"tall"			"11"
+		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

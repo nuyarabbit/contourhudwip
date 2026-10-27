@@ -6,7 +6,7 @@
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"r109"
 		"ypos"			"r87"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"110"
 		"visible"		"1"
@@ -34,20 +34,39 @@
 		"pin_to_sibling"	"HudWeaponAmmoBG"
 	}
 
-	"HudWeaponAmmoBGShadow"
+	"NewHudWeaponLowAmmoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponAmmoBGShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"NewHudWeaponLowAmmoImage"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"90"
-		"tall"			"90"
-		"visible"		"0"
-		"enabled"		"0"
-		"alpha"			"191.25"
-		"image"			"replay/thumbnails/ammo_brown"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/ammo_low"
 		"scaleImage"	"1"
+
+		"alpha"			"0"
+
+		"pin_to_sibling"	"HudWeaponAmmoBG"
+	}
+	"NewHudWeaponHighAmmoImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"NewHudWeaponHighAmmoImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"110"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/ammo_high"
+		"scaleImage"	"1"
+
+		"alpha"			"0"
 
 		"pin_to_sibling"	"HudWeaponAmmoBG"
 	}

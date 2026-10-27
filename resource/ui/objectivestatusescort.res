@@ -33,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"replay/thumbnails/mvm/cart/cart_track_tan"
 		"scaleImage"	"1"
 
 		"if_multiple_trains"
@@ -41,14 +41,14 @@
 			"ypos"			"119"
 			"zpos"			"3"
 			"tall"			"13"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/mvm/cart/cart_track"
 		}
 
 		"if_single_with_hills"
 		{
-			"ypos"			"120"
-			"tall"			"10"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"ypos"			"119"
+			"tall"			"13"
+			"image"			"replay/thumbnails/mvm/cart/cart_track"
 		}
 	}
 

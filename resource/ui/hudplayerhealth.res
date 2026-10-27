@@ -29,7 +29,7 @@
 
         "xpos"          "188"
         "ypos"          "14"
-        "zpos"          "1"
+        "zpos"          "2"
 
         "wide"          "110"
         "tall"          "110"
@@ -41,6 +41,46 @@
         "scaleImage"    "1"
         "teambg_2"      "replay/thumbnails/mvm/health_red_alt"
         "teambg_3"      "replay/thumbnails/mvm/health_blue_alt"
+	}
+	"NewPlayerStatusClassImageBGLow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"NewPlayerStatusClassImageBGLow"
+
+        "xpos"          "188"
+        "ypos"          "14"
+        "zpos"          "1"
+
+        "wide"          "110"
+        "tall"          "110"
+
+        "visible"       "1"
+        "enabled"       "1"
+
+		"alpha"			"0"
+
+        "image"         "replay/thumbnails/mvm/health_alt_low"
+        "scaleImage"    "1"
+	}
+	"NewPlayerStatusClassImageBGHigh"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"NewPlayerStatusClassImageBGHigh"
+
+        "xpos"          "188"
+        "ypos"          "14"
+        "zpos"          "1"
+
+        "wide"          "110"
+        "tall"          "110"
+
+        "visible"       "1"
+        "enabled"       "1"
+
+		"alpha"			"0"
+
+        "image"         "replay/thumbnails/mvm/health_alt_high"
+        "scaleImage"    "1"
 	}
 
 	"PlayerStatusHealthImage"
@@ -93,7 +133,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"191"
-		"ypos"			"51"
+		"ypos"			"52"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"35"
