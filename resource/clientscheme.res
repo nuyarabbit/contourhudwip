@@ -940,8 +940,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -953,8 +951,17 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1112,8 +1119,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1137,9 +1142,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -1169,9 +1172,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1213,8 +1214,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
