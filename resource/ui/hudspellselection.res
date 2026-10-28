@@ -1,10 +1,5 @@
 "Resource/UI/HudSpellSelection.res"
 {		
-	HudSpellMenu
-	{
-		"xpos"			"40"
-	}
-			
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,7 +20,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"23"
+		"xpos"			"24"
 		"ypos"			"11"
 		"zpos"			"0"
 		"wide"			"64"
@@ -40,7 +35,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"28"
+		"xpos"			"29"
 		"ypos"			"26"
 		"zpos"			"7"
 		"wide"			"24"
@@ -59,7 +54,7 @@
 		"font"			"Default"
 		"labelText"		"%actiontext%"
 		"textAlignment" "center"
-		"xpos"			"31"
+		"xpos"			"32"
 		"ypos"			"54"
 		"zpos"			"10"
 		"wide"			"51"
@@ -76,7 +71,7 @@
 		"font"			"Default"
 		"labelText"		"%selectedspell%"
 		"textAlignment" "west"
-		"xpos"			"35"
+		"xpos"			"36"
 		"ypos"			"25"
 		"wide"			"100"
 		"tall"			"10"
@@ -91,7 +86,7 @@
 		"font"			"ChalkboardTitle"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"59"
+		"xpos"			"60"
 		"ypos"			"22"
 		"zpos"			"4"
 		"wide"			"20"
