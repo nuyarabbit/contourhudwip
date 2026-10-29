@@ -1,11 +1,45 @@
 "resource/ui/hudarenavscript.res"
 {
-  "ObjectiveStatusRobotDestruction"
-  {
-    "wide"          "f0"
-    "tall"          "f0"
-    "zpos"          "2"
-  }
+    "ObjectiveStatusRobotDestruction"
+    {
+        "wide"          "f0"
+        "tall"          "f0"
+        "zpos"          "2"
+    }
+
+	"ArenaPlayerCountHUDBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ArenaPlayerCountHUDBG"
+		"xpos"			"c-55"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"110"
+		"tall"			"110"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_player_count"
+		"scaleImage"	"1"
+	}
+
+	"VersusImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"VersusImage"
+		"xpos"			"c-50"
+		"ypos"			"24"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_versus"
+		"scaleImage"	"1"
+	}
 
   "LeftSideBG"
   {
@@ -214,48 +248,12 @@
     {
       "ControlName"           "EditablePanel"
       "fieldName"             "ProgressBarContainer"
-      "xpos"                  "c-50"
-      "ypos"                  "25"
+      "xpos"                  "c-56"
+      "ypos"                  "55"
       "zpos"                  "-10"
       "wide"                  "110"
       "tall"                  "30"
       "visible"               "1"
-
-      "background_blue"
-      {
-        "ControlName"           "CTFImagePanel"
-        "fieldName"             "background_blue"
-        "xpos"                  "0"
-        "ypos"                  "7"
-        "zpos"                  "0"
-        "wide"                  "50"
-        "tall"                  "22"
-        "autoResize"            "0"
-        "pinCorner"             "0"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "../hud/color_panel_blu"
-
-        "src_corner_height"     "23"
-        "src_corner_width"      "23"
-        "draw_corner_width"     "5"
-        "draw_corner_height"    "5"
-      }
-
-      "playerimage_blue"
-      {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "playerimage_blue"
-        "xpos"                  "7"
-        "ypos"                  "11"
-        "zpos"                  "3"
-        "wide"                  "8"
-        "tall"                  "15"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "capture_icon_white"
-        "scaleImage"            "1"
-      }
 
       "EscrowBlue"
       {
@@ -265,12 +263,12 @@
         "ypos"                  "10"
         "zpos"                  "4"
         "wide"                  "25"
-        "tall"                  "16"
+        "tall"                  "18"
         "visible"               "1"
         "enabled"               "1"
         "textAlignment"         "center"
         "labelText"             "%blue_escrow%"
-        "font"                  "HudFontMediumSmallBold"
+        "font"                  "HudFontMediumBold"
         "fgcolor"               "TanLight"
         "proportionalToParent"  "1"
       }
@@ -279,53 +277,20 @@
       {
         "ControlName"           "CExLabel"
         "fieldName"             "EscrowBlueShadow"
-        "xpos"                  "17"
-        "ypos"                  "11"
+        "xpos"                  "-2"
+        "ypos"                  "-2"
         "zpos"                  "4"
         "wide"                  "25"
-        "tall"                  "16"
+        "tall"                  "18"
         "visible"               "1"
         "enabled"               "1"
         "textAlignment"         "center"
         "labelText"             "%blue_escrow%"
-        "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "Black"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanDarker"
         "proportionalToParent"  "1"
-      }
 
-      "background_red"
-      {
-        "ControlName"           "CTFImagePanel"
-        "fieldName"             "background_red"
-        "xpos"                  "55"
-        "ypos"                  "7"
-        "zpos"                  "0"
-        "wide"                  "50"
-        "tall"                  "22"
-        "autoResize"            "0"
-        "pinCorner"             "0"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "../hud/color_panel_red"
-        "src_corner_height"     "23"
-        "src_corner_width"      "23"
-        "draw_corner_width"     "5"
-        "draw_corner_height"    "5"
-      }
-
-      "playerimage_red"
-      {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "playerimage_red"
-        "xpos"                  "62"
-        "ypos"                  "11"
-        "zpos"                  "3"
-        "wide"                  "8"
-        "tall"                  "15"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "capture_icon_white"
-        "scaleImage"            "1"
+        "pin_to_sibling"        "EscrowBlue"
       }
 
       "EscrowRed"
@@ -336,12 +301,12 @@
         "ypos"                  "10"
         "zpos"                  "4"
         "wide"                  "25"
-        "tall"                  "16"
+        "tall"                  "18"
         "visible"               "1"
         "enabled"               "1"
         "textAlignment"         "center"
         "labelText"             "%red_escrow%"
-        "font"                  "HudFontMediumSmallBold"
+        "font"                  "HudFontMediumBold"
         "fgcolor"               "TanLight"
         "proportionalToParent"  "1"
       }
@@ -350,18 +315,20 @@
       {
         "ControlName"           "CExLabel"
         "fieldName"             "EscrowRedShadow"
-        "xpos"                  "71"
-        "ypos"                  "11"
+        "xpos"                  "-2"
+        "ypos"                  "-2"
         "zpos"                  "4"
         "wide"                  "25"
-        "tall"                  "16"
+        "tall"                  "18"
         "visible"               "1"
         "enabled"               "1"
         "textAlignment"         "center"
         "labelText"             "%red_escrow%"
-        "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "Black"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanDarker"
         "proportionalToParent"  "1"
+
+        "pin_to_sibling"        "EscrowRed"
       }
     }
   }
