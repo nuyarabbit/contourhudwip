@@ -99,13 +99,13 @@ event HudLowAmmoPulse
 	Animate	NewHudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	NewHudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
-	Animate  AmmoInClip						FgColor		"RedSolid"	Linear 0.0 0.075
+	Animate  AmmoInClip						FgColor		"255 0 0 255"	Linear 0.0 0.075
 	Animate  AmmoInClip						FgColor		"TanLight"			Linear 0.125 0.075
 
-	Animate  AmmoInReserve					FgColor		"RedSolid"	Linear 0.0 0.075
+	Animate  AmmoInReserve					FgColor		"255 0 0 255"	Linear 0.0 0.075
 	Animate  AmmoInReserve					FgColor		"TanLight"			Linear 0.125 0.075
 
-	Animate	 AmmoNoClip						FgColor		"RedSolid"	Linear 0.0 0.075
+	Animate	 AmmoNoClip						FgColor		"255 0 0 255"	Linear 0.0 0.075
 	Animate  AmmoNoClip						FgColor		"TanLight"			Linear 0.125 0.075
 
 	RunEvent HudLowAmmoPulseLoop	0.25
@@ -173,7 +173,7 @@ event HudHealthDyingPulse
 	Animate	NewPlayerStatusClassImageBGLow 	Alpha		"255"		Linear 0.0 0.075
 	Animate	NewPlayerStatusClassImageBGLow 	Alpha		"0"			Linear 0.125 0.075
 
-	Animate  PlayerStatusHealthValue						FgColor		"RedSolid"			Linear 0.0 0.075
+	Animate  PlayerStatusHealthValue						FgColor		"255 0 0 255"			Linear 0.0 0.075
 	Animate  PlayerStatusHealthValue						FgColor		"TanLight"			Linear 0.125 0.075
 
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -193,4 +193,30 @@ event HudHealthDyingPulseStop
 	Animate	NewPlayerStatusClassImageBGLow 	Alpha		"0"			Linear 0.0 0.0
 
 	Animate  PlayerStatusHealthValue						FgColor		"TanLight"			Linear 0.0 0.0
+}
+
+//===========================================
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"TanDarker"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"TanDarker"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"TanDarker"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"TanDarker"		Accel 0.1 0.2
 }

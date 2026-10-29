@@ -11,14 +11,14 @@
   {
     "ControlName"   "ImagePanel"
     "fieldName"     "LeftSideBG"
-    "xpos"			"c-140"
-    "ypos"			"r80"
+    "xpos"          "c-98"
+    "ypos"          "r55"
     "zpos"          "1"
-    "wide"          "110"
-    "tall"          "110"
+    "wide"          "196"
+    "tall"          "56"
     "visible"       "1"
     "enabled"       "1"
-    "image"         "replay/thumbnails/mvm/ctf_blue"
+    "image"         "../hud/objectives_flagpanel_bg_left"
     "scaleImage"    "1"
   }
 
@@ -26,14 +26,29 @@
   {
     "ControlName"   "ImagePanel"
     "fieldName"     "RightSideBG"
-    "xpos"			"c31"
-    "ypos"			"r80"
+    "xpos"          "c-98"
+    "ypos"          "r55"
     "zpos"          "1"
-    "wide"          "110"
-    "tall"          "110"
+    "wide"          "196"
+    "tall"          "56"
     "visible"       "1"
     "enabled"       "1"
-    "image"         "replay/thumbnails/mvm/ctf_red"
+    "image"         "../hud/objectives_flagpanel_bg_right"
+    "scaleImage"    "1"
+  }
+
+  "OutlineBG"
+  {
+    "ControlName"   "ImagePanel"
+    "fieldName"     "OutlineBG"
+    "xpos"          "c-98"
+    "ypos"          "r55"
+    "zpos"          "2"
+    "wide"          "196"
+    "tall"          "56"
+    "visible"       "1"
+    "enabled"       "1"
+    "image"         "../hud/objectives_flagpanel_bg_outline"
     "scaleImage"    "1"
   }
 
@@ -68,6 +83,7 @@
     "visible"       "1"
     "enabled"       "1"
     "image"         "../hud/objectives_flagpanel_bg_playingto"
+    "image_hidef"   "../hud/objectives_flagpanel_bg_playingto_hidef"
     "scaleImage"    "1"
   }
 
@@ -88,8 +104,8 @@
     {
       "ControlName"           "EditablePanel"
       "fieldName"             "BlueScoreValueContainer"
-      "xpos"                  "c-97"
-      "ypos"                  "r62"
+      "xpos"                  "c-90"
+      "ypos"                  "r63"
       "zpos"                  "10"
       "wide"                  "60"
       "tall"                  "60"
@@ -103,7 +119,7 @@
         "ControlName"           "CExLabel"
         "fieldName"             "Score"
         "xpos"                  "3"
-        "ypos"                  "6"
+        "ypos"                  "10"
         "zpos"                  "8"
         "wide"                  "60"
         "tall"                  "60"
@@ -111,7 +127,9 @@
         "enabled"               "1"
         "textAlignment"         "west"
         "labelText"             "%score%"
-        "font"                  "HudFontBiggerBold"
+        "font"                  "HudFontMedium"
+        "font_hidef"            "HudFontMedium"
+        "font_lodef"            "HudFontMedium"
         "fgcolor"               "TanLight"
         "proportionalToParent"  "1"
       }
@@ -120,8 +138,8 @@
       {
         "ControlName"           "CExLabel"
         "fieldName"             "ScoreShadow"
-        "xpos"                  "-3"
-        "ypos"                  "-3"
+        "xpos"                  "5"
+        "ypos"                  "11"
         "zpos"                  "7"
         "wide"                  "60"
         "tall"                  "60"
@@ -129,11 +147,11 @@
         "enabled"               "1"
         "textAlignment"         "west"
         "labelText"             "%score%"
-        "font"                  "HudFontBiggerBold"
-        "fgcolor"               "TanDarker"
+        "font"                  "HudFontMedium"
+        "font_hidef"            "HudFontMedium"
+        "font_lodef"            "HudFontMedium"
+        "fgcolor"               "Black"
         "proportionalToParent"  "1"
-
-        "pin_to_sibling"        "Score"
       }
     }
 
@@ -141,8 +159,8 @@
     {
       "ControlName"           "EditablePanel"
       "fieldName"             "RedScoreValueContainer"
-      "xpos"                  "c13"
-      "ypos"                  "r62"
+      "xpos"                  "c5"
+      "ypos"                  "r63"
       "zpos"                  "0"
       "wide"                  "84"
       "tall"                  "60"
@@ -156,7 +174,7 @@
         "ControlName"           "CExLabel"
         "fieldName"             "Score"
         "xpos"                  "3"
-        "ypos"                  "6"
+        "ypos"                  "10"
         "zpos"                  "8"
         "wide"                  "80"
         "tall"                  "60"
@@ -164,7 +182,9 @@
         "enabled"               "1"
         "textAlignment"         "east"
         "labelText"             "%score%"
-        "font"                  "HudFontBiggerBold"
+        "font"                  "HudFontMedium"
+        "font_hidef"            "HudFontMedium"
+        "font_lodef"            "HudFontMedium"
         "fgcolor"               "TanLight"
         "proportionalToParent"  "1"
       }
@@ -173,8 +193,8 @@
       {
         "ControlName"           "CExLabel"
         "fieldName"             "ScoreShadow"
-        "xpos"                  "-3"
-        "ypos"                  "-3"
+        "xpos"                  "5"
+        "ypos"                  "11"
         "zpos"                  "7"
         "wide"                  "80"
         "tall"                  "60"
@@ -182,11 +202,11 @@
         "enabled"               "1"
         "textAlignment"         "east"
         "labelText"             "%score%"
-        "font"                  "HudFontBiggerBold"
-        "fgcolor"               "TanDarker"
+        "font"                  "HudFontMedium"
+        "font_hidef"            "HudFontMedium"
+        "font_lodef"            "HudFontMedium"
+        "fgcolor"               "Black"
         "proportionalToParent"  "1"
-
-        "pin_to_sibling"        "Score"
       }
     }
 
@@ -216,11 +236,10 @@
         "enabled"               "1"
         "image"                 "../hud/color_panel_blu"
 
-        "src_corner_height"		"40"				// pixels inside the image
-        "src_corner_width"		"40"
-
-        "draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-        "draw_corner_height" 	"10"
+        "src_corner_height"     "23"
+        "src_corner_width"      "23"
+        "draw_corner_width"     "5"
+        "draw_corner_height"    "5"
       }
 
       "playerimage_blue"
@@ -270,7 +289,7 @@
         "textAlignment"         "center"
         "labelText"             "%blue_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "TanDarker"
+        "fgcolor"               "Black"
         "proportionalToParent"  "1"
       }
 
@@ -288,12 +307,10 @@
         "visible"               "1"
         "enabled"               "1"
         "image"                 "../hud/color_panel_red"
-
-        "src_corner_height"		"40"				// pixels inside the image
-        "src_corner_width"		"40"
-
-        "draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-        "draw_corner_height" 	"10"
+        "src_corner_height"     "23"
+        "src_corner_width"      "23"
+        "draw_corner_width"     "5"
+        "draw_corner_height"    "5"
       }
 
       "playerimage_red"
@@ -343,7 +360,7 @@
         "textAlignment"         "center"
         "labelText"             "%red_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "TanDarker"
+        "fgcolor"               "Black"
         "proportionalToParent"  "1"
       }
     }

@@ -51,13 +51,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"r109"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
-		"tall"			"30"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
@@ -66,6 +63,8 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"TanDarkerTransparent"
 		
 		"if_hybrid"
 		{
@@ -82,41 +81,6 @@
 			"visible"	"0"
 		}
 	}	
-			
-	"PlayingToBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
-		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
 
 	"CarriedContainer"
 	{
@@ -248,10 +212,10 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"c-200"
-		"ypos"					"r131"
+		"ypos"					"r160"
 		"zpos"					"0"
 		"wide"					"400"
-		"tall"					"120"
+		"tall"					"160"
 		"scaleimage"			"0"
 		"visible"				"1"
 		"enabled"				"1"
@@ -268,36 +232,20 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-		
-			"ScoreOutline" //the background image used for the bulk of the HUD
-			{
-				"fieldName"				"ScoreOutline"
-				"ControlName"			"ImagePanel"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"10"
-				"wide"					"f0"
-				"tall"					"f0"
-				"scaleimage"			"1"
-				"visible"				"1"
-				"enabled"				"1"
-				"Image"					"../hud/objectives_flagpanel_bg_outline"
-				"proportionalToParent"	"1"
-			}
 			
 			"ScoreOutlineBlue" //the background image used for the backdrop of blue team
 			{
 				"fieldName"				"ScoreOutlineBlue"
 				"ControlName"			"ImagePanel"
-				"xpos"					"0"
-				"ypos"					"0"
+				"xpos"					"56"
+				"ypos"					"-17"
 				"zpos"					"8"
-				"wide"					"f0"
-				"tall"					"f0"
+				"wide"					"110"
+				"tall"					"110"
 				"scaleimage"			"1"
 				"visible"				"1"
 				"enabled"				"1"
-				"Image"					"../hud/objectives_flagpanel_bg_left"
+				"Image"					"replay/thumbnails/mvm/arena/arena_hybrid_blue"
 				"proportionalToParent"	"1"
 			}
 			
@@ -305,31 +253,33 @@
 			{
 				"fieldName"				"ScoreOutlineRed"
 				"ControlName"			"ImagePanel"
-				"xpos"					"0"
+				"xpos"					"-77"
 				"ypos"					"0"
 				"zpos"					"8"
-				"wide"					"f0"
-				"tall"					"f0"
+				"wide"					"110"
+				"tall"					"110"
 				"scaleimage"			"1"
 				"visible"				"1"
 				"enabled"				"1"
-				"Image"					"../hud/objectives_flagpanel_bg_right"
+				"Image"					"replay/thumbnails/mvm/arena/arena_hybrid_red"
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"		"ScoreOutlineBlue"
 			}
 			
 			"TrophyIcon" //the trophy image
 			{
 				"fieldName"				"TrophyIcon"
 				"ControlName"			"ImagePanel"
-				"xpos"					"100"
-				"ypos"					"-6"
+				"xpos"					"95"
+				"ypos"					"-21"
 				"zpos"					"12"
-				"wide"					"102"
-				"tall"					"102"
+				"wide"					"110"
+				"tall"					"110"
 				"scaleimage"			"1"
 				"visible"				"1"
 				"enabled"				"1"
-				"Image"					"../hud/objectives_arenahybrid_trophy"
+				"Image"					"replay/thumbnails/mvm/arena/arena_hybrid_trophy"
 				"proportionalToParent"	"1"
 			}
 
@@ -730,8 +680,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
+			"xpos"				"140"
+			"ypos"				"r60"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -753,9 +703,7 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontGiant"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"HudFontGiantBold"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -764,8 +712,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
+				"xpos"			"-3"
+				"ypos"			"-3"
 				"zpos"			"7"
 				"wide"			"55"
 				"tall"			"35"
@@ -773,11 +721,11 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontGiant"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"font"			"HudFontGiantBold"
+				"fgcolor"		"TanDarker"
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"	"Score"
 			}
 		}
 
@@ -785,8 +733,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
+			"xpos"				"r200"
+			"ypos"				"r60"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -808,7 +756,7 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontGiant"
+				"font"			"HudFontGiantBold"
 				"font_hidef"	"HudFontGiant"
 				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"TanLight"	
@@ -819,8 +767,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
+				"xpos"			"-3"
+				"ypos"			"-3"
 				"zpos"			"7"
 				"wide"			"55"
 				"tall"			"35"
@@ -828,11 +776,11 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontGiant"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"font"			"HudFontGiantBold"
+				"fgcolor"		"TanDarker"
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"	"Score"
 			}
 		}
 
@@ -1126,53 +1074,65 @@
 	
 	// ARENA PLAYERCOUNT HUD
 	
+	"ArenaPlayerCountHUDBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ArenaPlayerCountHUDBG"
+		"xpos"			"c-55"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"110"
+		"tall"			"110"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_player_count"
+		"scaleImage"	"1"
+	}
+
+	"VersusImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"VersusImage"
+		"xpos"			"c-50"
+		"ypos"			"24"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_versus"
+		"scaleImage"	"1"
+	}
+
 	"blueteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-56"
-		"ypos"			"21"
+		"xpos"			"c-92"
+		"ypos"			"19"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"7"
+			"xpos"			"52"
+			"ypos"			"43"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
-			"autoResize"	"1"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"HudFontMediumBold"
 			//"labelText"		"%blue_alive%"
 			//"labelText"		"%blue_escrow%"
 			"labelText"		" "
@@ -1183,36 +1143,23 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
-			"autoResize"	"1"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"HudFontMediumBold"
 			//"labelText"		"%blue_alive%"
 			//"labelText"		"%blue_escrow%"
 			"labelText"		" "
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
-		}
-		
-		"playerimage"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
+			"fgcolor"		"TanDarker"
+
+			"pin_to_sibling"	"count"
 		}
 	}
 
@@ -1220,49 +1167,27 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-4"
-		"ypos"			"21"
+		"xpos"			"c-28"
+		"ypos"			"19"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"edEscrow"
-			"xpos"			"23"
-			"ypos"			"7"
+			"fieldName"		"count"
+			"xpos"			"39"
+			"ypos"			"43"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
-			"autoResize"	"1"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"HudFontMediumBold"
 			//"labelText"		"%red_alive%"
 			//"labelText"		"%red_escrow%"
 			"labelText"		" "
@@ -1273,9 +1198,9 @@
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"RedEscrow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"fieldName"		"countshadow"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -1283,27 +1208,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"HudFontMediumBold"
 			//"labelText"		"%red_alive%"
 			//"labelText"		"%red_escrow%"
 			"labelText"		" "
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"fgcolor"		"TanDarker"
+
+			"pin_to_sibling"	"count"
 		}
-	
-		"playerimage"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
-		}			
 	}
 }

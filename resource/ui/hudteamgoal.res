@@ -30,7 +30,7 @@
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"c-125"
-		"ypos"			"3"
+		"ypos"			"6"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"15"

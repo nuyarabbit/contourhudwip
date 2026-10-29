@@ -1,31 +1,50 @@
 "Resource/UI/HudArenaPlayerCount.res"
 {
+
+	"ArenaPlayerCountHUDBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ArenaPlayerCountHUDBG"
+		"xpos"			"c-55"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"110"
+		"tall"			"110"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_player_count"
+		"scaleImage"	"1"
+	}
+
+	"VersusImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"VersusImage"
+		"xpos"			"c-50"
+		"ypos"			"24"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_versus"
+		"scaleImage"	"1"
+	}
+
 	"blueteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-88"
-		"ypos"			"8"
+		"xpos"			"c-92"
+		"ypos"			"19"
 		"zpos"			"0"
 		"wide"			"110"
 		"tall"			"110"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mvm/ctf_blue"
-		}
 		
 		"count"
 		{
@@ -65,49 +84,18 @@
 
 			"pin_to_sibling"	"count"
 		}
-		
-		"playerimage"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"45"
-			"ypos"			"47"
-			"zpos"			"3"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
-		}
 	}
 
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-32"
-		"ypos"			"8"
+		"xpos"			"c-28"
+		"ypos"			"19"
 		"zpos"			"0"
 		"wide"			"110"
 		"tall"			"110"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mvm/ctf_red"
-		}
 		
 		"count"
 		{
@@ -147,20 +135,5 @@
 
 			"pin_to_sibling"	"count"
 		}
-	
-		"playerimage"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"67"
-			"ypos"			"47"
-			"zpos"			"3"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
-		}			
 	}
 }
