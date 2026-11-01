@@ -73,8 +73,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"10"
-		"ypos"					"-1"
+		"xpos"					"11"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"44"
 		"tall"					"24"
@@ -87,7 +87,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanLight"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontMediumSmallProfessor"
 
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
@@ -110,7 +110,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanDarker"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontMediumSmallProfessor"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}

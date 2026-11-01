@@ -1,0 +1,306 @@
+"resource/ui/hudarenavscript.res"
+{
+    "ObjectiveStatusRobotDestruction"
+    {
+        "wide"          "f0"
+        "tall"          "f0"
+        "zpos"          "2"
+    }
+
+	"ArenaPlayerCountHUDBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ArenaPlayerCountHUDBG"
+		"xpos"			"c-55"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"110"
+		"tall"			"110"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_player_count"
+		"scaleImage"	"1"
+	}
+
+	"VersusImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"VersusImage"
+		"xpos"			"c-50"
+		"ypos"			"24"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/mvm/arena/arena_versus"
+		"scaleImage"	"1"
+	}
+
+  "LeftSideBG"
+  {
+    "ControlName"   "ImagePanel"
+    "fieldName"     "LeftSideBG"
+				"xpos"					"c-94"
+				"ypos"					"r82"
+				"zpos"					"8"
+				"wide"					"110"
+				"tall"					"110"
+				"scaleimage"			"1"
+				"visible"				"1"
+				"enabled"				"1"
+				"Image"					"replay/thumbnails/mvm/arena/arena_hybrid_blue"
+				"proportionalToParent"	"1"
+  }
+
+  "RightSideBG"
+  {
+    "ControlName"   "ImagePanel"
+    "fieldName"     "RightSideBG"
+				"xpos"					"-77"
+				"ypos"					"0"
+				"zpos"					"8"
+				"wide"					"110"
+				"tall"					"110"
+				"scaleimage"			"1"
+				"visible"				"1"
+				"enabled"				"1"
+				"Image"					"replay/thumbnails/mvm/arena/arena_hybrid_red"
+				"proportionalToParent"	"1"
+
+				"pin_to_sibling"		"LeftSideBG"
+  }
+
+  "PlayingTo"
+  {
+    "ControlName"   "CExLabel"
+    "fieldName"     "PlayingTo"
+    "xpos"          "c-70"
+    "ypos"          "r93"
+    "zpos"          "14"
+    "wide"          "140"
+	"tall"			"16"
+    "visible"       "1"
+    "enabled"       "1"
+    "labelText"     "#TF_PlayingTo"
+    "textAlignment" "center"
+    "dulltext"      "0"
+    "brighttext"    "0"
+    "font"          "HudFontSmall"
+    "fgcolor"       "TanLight"
+    "PaintBackgroundType"	"2"
+    "bgcolor_override"	"TanDarkerTransparent"
+  }
+
+  "ScoreContainer"
+  {
+    "fieldName"             "ScoreContainer"
+    "ControlName"           "EditablePanel"
+    "xpos"                  "0"
+    "ypos"                  "-6"
+    "zpos"                  "10"
+    "wide"                  "f0"
+    "tall"                  "f0"
+    "scaleimage"            "0"
+    "visible"               "1"
+    "enabled"               "1"
+
+    "BlueScoreValueContainer"
+    {
+      "ControlName"           "EditablePanel"
+      "fieldName"             "BlueScoreValueContainer"
+      "xpos"                  "c-55"
+      "ypos"                  "r63"
+      "zpos"                  "10"
+      "wide"                  "60"
+      "tall"                  "60"
+      "visible"               "1"
+      "enabled"               "1"
+      "bgcolor_override"      "0 0 0 0"
+      "proportionalToParent"  "1"
+
+      "Score"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "Score"
+        "xpos"                  "3"
+        "ypos"                  "10"
+        "zpos"                  "8"
+        "wide"                  "60"
+        "tall"                  "60"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "west"
+        "labelText"             "%score%"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "TanLight"
+        "proportionalToParent"  "1"
+      }
+
+      "ScoreShadow"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "ScoreShadow"
+        "xpos"			"-3"
+        "ypos"			"-3"
+        "zpos"                  "7"
+        "wide"                  "60"
+        "tall"                  "60"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "west"
+        "labelText"             "%score%"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "TanDarker"
+        "proportionalToParent"  "1"
+
+        "pin_to_sibling"        "Score"
+      }
+    }
+
+    "RedScoreValueContainer"
+    {
+      "ControlName"           "EditablePanel"
+      "fieldName"             "RedScoreValueContainer"
+      "xpos"                  "c-30"
+      "ypos"                  "r63"
+      "zpos"                  "0"
+      "wide"                  "84"
+      "tall"                  "60"
+      "visible"               "1"
+      "enabled"               "1"
+      "bgcolor_override"      "0 0 0 0"
+      "proportionalToParent"  "1"
+
+      "Score"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "Score"
+        "xpos"                  "3"
+        "ypos"                  "10"
+        "zpos"                  "8"
+        "wide"                  "80"
+        "tall"                  "60"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "east"
+        "labelText"             "%score%"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "TanLight"
+        "proportionalToParent"  "1"
+      }
+
+      "ScoreShadow"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "ScoreShadow"
+        "xpos"			"-3"
+        "ypos"			"-3"
+        "zpos"                  "7"
+        "wide"                  "80"
+        "tall"                  "60"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "east"
+        "labelText"             "%score%"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "TanDarker"
+        "proportionalToParent"  "1"
+
+        "pin_to_sibling"        "Score"
+      }
+    }
+
+    "ProgressBarContainer"
+    {
+      "ControlName"           "EditablePanel"
+      "fieldName"             "ProgressBarContainer"
+      "xpos"                  "c-56"
+      "ypos"                  "61"
+      "zpos"                  "-10"
+      "wide"                  "110"
+      "tall"                  "30"
+      "visible"               "1"
+
+      "EscrowBlue"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "EscrowBlue"
+        "xpos"                  "16"
+        "ypos"                  "10"
+        "zpos"                  "4"
+        "wide"                  "25"
+        "tall"                  "18"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "center"
+        "labelText"             "%blue_escrow%"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanLight"
+        "proportionalToParent"  "1"
+      }
+
+      "EscrowBlueShadow"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "EscrowBlueShadow"
+        "xpos"                  "-2"
+        "ypos"                  "-2"
+        "zpos"                  "4"
+        "wide"                  "25"
+        "tall"                  "18"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "center"
+        "labelText"             "%blue_escrow%"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanDarker"
+        "proportionalToParent"  "1"
+
+        "pin_to_sibling"        "EscrowBlue"
+      }
+
+      "EscrowRed"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "EscrowRed"
+        "xpos"                  "70"
+        "ypos"                  "10"
+        "zpos"                  "4"
+        "wide"                  "25"
+        "tall"                  "18"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "center"
+        "labelText"             "%red_escrow%"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanLight"
+        "proportionalToParent"  "1"
+      }
+
+      "EscrowRedShadow"
+      {
+        "ControlName"           "CExLabel"
+        "fieldName"             "EscrowRedShadow"
+        "xpos"                  "-2"
+        "ypos"                  "-2"
+        "zpos"                  "4"
+        "wide"                  "25"
+        "tall"                  "18"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "center"
+        "labelText"             "%red_escrow%"
+        "font"                  "HudFontMediumBold"
+        "fgcolor"               "TanDarker"
+        "proportionalToParent"  "1"
+
+        "pin_to_sibling"        "EscrowRed"
+      }
+    }
+  }
+}

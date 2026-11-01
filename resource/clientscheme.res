@@ -528,9 +528,68 @@ Scheme
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
-
-			
 		}
+
+		"DefaultProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Professor"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+
 		"DefaultUnderline"
 		{
 			"1"
@@ -880,13 +939,34 @@ Scheme
 				"antialias" "1"
 			}
 		}		
+		"HudFontMediumBigProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMedium"
 		{
 			"1"
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -967,18 +1047,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"tall_lodef"	"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}	
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -990,6 +1058,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
 		"HudFontSmallBold"
 		{
 			"1"
@@ -1013,11 +1092,33 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		"HudFontSmallProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontSmallest"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"HudFontSmallestProfessor"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"

@@ -120,7 +120,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"10"
-			"ypos"			"12"
+			"ypos"			"8"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"26"
@@ -133,7 +133,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMediumBig"
+			"font"			"HudFontMediumBigProfessor"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -153,7 +153,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMediumBig"
+			"font"			"HudFontMediumBigProfessor"
 			"fgcolor"		"TanDarker"
 
 			"pin_to_sibling"	"NumPipesLabel"
@@ -207,7 +207,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"10"
-			"ypos"			"12"
+			"ypos"			"8"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"26"
@@ -220,7 +220,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMediumBig"
+			"font"			"HudFontMediumBigProfessor"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -240,7 +240,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMediumBig"
+			"font"			"HudFontMediumBigProfessor"
 			"fgcolor"		"TanDarker"
 
 			"pin_to_sibling"	"NumPipesLabel"

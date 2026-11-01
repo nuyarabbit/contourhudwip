@@ -33,7 +33,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"replay/thumbnails/mvm/cart/cart_track_tan"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/mvm/cart/cart_track"
 		"scaleImage"	"1"
 
 		"if_multiple_trains"
@@ -89,22 +90,22 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"replay/thumbnails/mvm/points/cart_home_blue_normal"
 		"scaleImage"	"1"
 
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"			"replay/thumbnails/mvm/points/cart_home_red_normal"
 		}
 
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"replay/thumbnails/mvm/points/cart_home_blue_opaque"
 		}
 
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"replay/thumbnails/mvm/points/cart_home_red_opaque"
 		}
 
 		"if_multiple_trains"
@@ -126,12 +127,12 @@
 
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"replay/thumbnails/mvm/points/cart_home_red_opaque"
 		}
 
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"replay/thumbnails/mvm/points/cart_home_blue_opaque"
 		}
 	}
 

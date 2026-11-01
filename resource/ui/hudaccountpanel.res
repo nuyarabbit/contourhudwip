@@ -89,7 +89,7 @@
 		"ypos"			"-41"
 		"zpos"			"2"
 		"wide"			"56"
-		"tall"			"28"
+		"tall"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -100,7 +100,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"TanLight"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumSmallProfessor"
 
 		"pin_to_sibling"	"AccountBG"
 	}
@@ -112,7 +112,7 @@
 		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"56"
-		"tall"			"28"
+		"tall"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -123,7 +123,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"TanDarker"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumSmallProfessor"
 
 		"pin_to_sibling"	"AccountValue"
 	}

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/mvm/cart/cart_track_tan"
+	"$basetexture"	"vgui/replay/thumbnails/mvm/points/cart_home_brown_opaque"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

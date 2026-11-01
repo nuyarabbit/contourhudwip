@@ -101,7 +101,5 @@
 		"enabled"			"1"
 		"image"				"replay/thumbnails/mvm/timer_active"
 		"scaleImage"		"1"
-
-		"ypos_minmode"			"0"
 	}
 }
