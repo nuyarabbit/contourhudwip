@@ -52,36 +52,28 @@
 		"ypos"			"r80"
 		"zpos"			"-10"
 		"wide"			"60"
-		"tall"			"30"
+		"tall"			"60"
 		"visible"		"1"
 	
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
+			"xpos"			"-24"
+			"ypos"			"-34"
 			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"wide"			"110"
+			"tall"			"110"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
-		}	
+			"image"			"replay/thumbnails/mvm/ctf_red"
+		}
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"11"
+			"xpos"			"14"
+			"ypos"			"14"
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"15"
@@ -105,24 +97,19 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
 			"xpos"			"5"
 			"ypos"			"7"
-			"zpos"			"0"
+			"zpos"			"-20"
 			"wide"			"62"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thinlineborder"
-				
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"TanDarkerTransparent"
 		}	
 		"dmg_icon"
 		{
@@ -145,7 +132,7 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"11"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
@@ -239,8 +226,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-99"
-				"ypos"			"1"
+				"xpos"			"-2"
+				"ypos"			"-2"
 				"zpos"			"27"
 				"wide"			"200"
 				"tall"			"20"
@@ -251,6 +238,8 @@
 				"font"			"HudFontMediumSmallBold"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"	"Score"
 			}
 		}
 		
@@ -259,7 +248,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"c-97"
-			"ypos"				"r71"
+			"ypos"				"r81"
 			"zpos"				"20"
 			"wide"				"200"
 			"tall"				"100"
@@ -272,16 +261,16 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-100"
-				"ypos"			"0"
+				"xpos"			"c-99"
+				"ypos"			"1"
 				"zpos"			"28"
 				"wide"			"200"
-				"tall"			"20"
+				"tall"			"21"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"CenterPrintText"
+				"font"			"HudFontMediumSmallBold"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -290,18 +279,20 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-99"
-				"ypos"			"1"
+				"xpos"			"-2"
+				"ypos"			"-2"
 				"zpos"			"27"
 				"wide"			"200"
-				"tall"			"20"
+				"tall"			"21z"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"CenterPrintText"
-				"fgcolor"		"Black"		
+				"font"			"HudFontMediumSmallBold"
+				"fgcolor"		"TanDarker"
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"		"Score"
 			}
 		}
 	}
