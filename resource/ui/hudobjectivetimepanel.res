@@ -151,7 +151,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 	}	
 	"SetupBG"
 	{
@@ -171,7 +171,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"ypos"			"35"
+		"ypos"			"38"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -183,7 +183,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"fgcolor_override"	"TanLight"
-		"font"			"HudFontMediumSmallProfessor"
+		"font"			"HudFontMediumSmall"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

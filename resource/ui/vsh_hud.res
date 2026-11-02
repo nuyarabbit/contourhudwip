@@ -66,7 +66,7 @@
 			"tall"			"110"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/mvm/ctf_red"
+			"image"			"replay/thumbnails/mvm/vsh_red_panel"
 		}
 		"playerimage"
 		{
