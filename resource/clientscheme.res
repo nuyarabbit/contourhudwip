@@ -530,7 +530,72 @@ Scheme
 				"weight"		"800"
 			}
 		}
-
+		"DefaultShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"dropshadow"	"1"
+			}
+		}
 		"DefaultProfessor"
 		{
 			"1"
@@ -904,6 +969,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontBiggerBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 
 		"HudFontBig"
 		{
@@ -917,6 +995,20 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontBigShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
 		"HudFontMediumBig"
 		{
 			"1"
@@ -927,7 +1019,19 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
+		"HudFontMediumBigShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -938,7 +1042,19 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
+		"HudFontMediumBigBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMediumBigProfessor"
 		{
 			"1"
@@ -950,6 +1066,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"HudFontMedium"
 		{
 			"1"
@@ -1015,6 +1132,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -1024,6 +1154,18 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontMediumSmall"
@@ -1071,6 +1213,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -1082,6 +1225,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"HudFontSmall"
 		{
 			"1"
@@ -1139,6 +1283,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmalliest"
 		{
 			"1"
@@ -1151,6 +1296,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+
 		"HudFontSmallest"
 		{
 			"1"
@@ -1196,6 +1342,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontSmallestBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
 		"PerformanceModeSmall"
 		{
 			"1"
