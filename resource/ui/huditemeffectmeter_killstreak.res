@@ -90,7 +90,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"-46"
-		"ypos"					"-44"
+		"ypos"					"-40"
 		"zpos"					"2"
 		"wide"					"44"
 		"tall"					"24"
@@ -103,7 +103,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanLight"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSmall"
 
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
@@ -126,7 +126,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanDarker"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSmall"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
@@ -135,20 +135,22 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"-2"
+		"ypos"					"-17"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmallestShadow"
+
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }
