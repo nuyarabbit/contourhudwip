@@ -20,34 +20,50 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"105"
-		"ypos"			"r63"
+		"xpos"			"61"
+		"ypos"			"r91"
 		"zpos"			"0"
-		"wide"			"23"
-		"tall"			"23"
+		"wide"			"110"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/killstreak/killstreak_blue"
+		"image"			"replay/thumbnails/hud/meter_misc1_alt_reverse_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/killstreak/killstreak_red"
-		"teambg_3"		"replay/thumbnails/killstreak/killstreak_blue"
+		"teambg_2"		"replay/thumbnails/hud/meter_misc1_alt_reverse_red"
+		"teambg_3"		"replay/thumbnails/hud/meter_misc1_alt_reverse_blue"
 	}
 
-	"ItemEffectMeterBGShadow"
+	"ItemEffectMeterIcon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ItemEffectMeterBGShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"-1"
-		"wide"			"23"
-		"tall"			"23"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"-32"
+		"ypos"			"-45"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/killstreak/killstreak_brown"
+		"image"			"replay/thumbnails/hud/glyph_killstreak"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"ItemEffectMeterBG"
+	}
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterIconShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"9"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_killstreak_shadow"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 
 	"ItemEffectMeter"
@@ -73,8 +89,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"11"
-		"ypos"					"3"
+		"xpos"					"-46"
+		"ypos"					"-44"
 		"zpos"					"2"
 		"wide"					"44"
 		"tall"					"24"
@@ -87,7 +103,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanLight"
-		"font"					"HudFontMediumSmallProfessor"
+		"font"					"HudFontMedium"
 
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
@@ -110,7 +126,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanDarker"
-		"font"					"HudFontMediumSmallProfessor"
+		"font"					"HudFontMedium"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}

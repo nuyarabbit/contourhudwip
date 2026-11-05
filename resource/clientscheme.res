@@ -101,6 +101,7 @@ Scheme
 		"TanDarker"				"46 43 42 255"
 		"TanDarkerTransparent"	"46 43 42 191.25"
 		"TanLightTransparent"	"235 226 202 191.25"
+		"OverYellow"			"255 177 78 255"
 
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
@@ -960,6 +961,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMediumProfessor"
 		{
 			"1"
@@ -1024,6 +1037,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumSmallShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
@@ -1067,7 +1092,19 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"HudFontSmallShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
@@ -1100,6 +1137,18 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		"HudFontSmalliest"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"12"
+				"weight"		"600"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallest"
@@ -3580,16 +3629,17 @@ Scheme
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
 		}
-		ContourFlatSquircleBottomBrownBG
+		FlatBottomBrownSquircle
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"replay/thumbnails/mvm/hud_squircle_bottom_brown"
-			"src_corner_height"		"90"				// pixels inside the image
-			"src_corner_width"		"90"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
+			"image"					"replay/thumbnails/hud/squircle_brown"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"
 		}
 		TFFatLineBorderCropTop
 		{

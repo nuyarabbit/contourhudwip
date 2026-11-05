@@ -7,10 +7,31 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
+		"wide"		"28"
+		"tall"		"28"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"ControlPointIconBorder"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"	"ControlPointIconBorder"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"3"
 		"wide"		"32"
 		"tall"		"32"
 		"visible"	"1"
 		"enabled"	"1"
+		"image"		"replay/thumbnails/hud/color_panel_clear"
+		"scaleImage"	"1"
+
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
+
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
 	}
 	
 	"Countdown"

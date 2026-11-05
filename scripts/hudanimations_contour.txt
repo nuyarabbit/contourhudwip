@@ -61,10 +61,10 @@ event OvertimeLabelPulseRed
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.2
+	Animate	ChargeLabel 	FgColor		"OverYellow"		Linear 0.0 0.2
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.2 0.4
 
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"OverYellow"		Linear 0.0 0.2
 	Animate	ChargeMeter 	FgColor		"TanLight"			Linear 0.2 0.4
 
 	Animate	BackgroundHigh 	Alpha		"255"				Linear 0.0 0.2
@@ -141,10 +141,10 @@ event HudHealthBonusPulse
 	Animate	NewPlayerStatusClassImageBGHigh 	Alpha		"255"		Linear 0.0 0.2
 	Animate	NewPlayerStatusClassImageBGHigh 	Alpha		"0"			Linear 0.2 0.4
 
-	Animate  PlayerStatusHealthValue			FgColor		"White"			Linear 0.0 0.2
+	Animate  PlayerStatusHealthValue			FgColor		"OverYellow"			Linear 0.0 0.2
 	Animate  PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.2 0.4
 
-	Animate  PlayerStatusHealthValueTargetID			FgColor		"White"			Linear 0.0 0.2
+	Animate  PlayerStatusHealthValueTargetID			FgColor		"OverYellow"			Linear 0.0 0.2
 	Animate  PlayerStatusHealthValueTargetID			FgColor		"TanLight"			Linear 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4

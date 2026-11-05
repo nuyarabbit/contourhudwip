@@ -4,15 +4,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"30"
+		"xpos"			"9999"
 		"ypos"			"6"
 		"zpos"			"4"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -20,13 +20,13 @@
 		"xpos"			"28"
 		"ypos"			"5"
 		"zpos"			"3"
-		"wide"			"13"
-		"tall"			"13"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/health_small_inner"
 		"scaleImage"	"1"
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"

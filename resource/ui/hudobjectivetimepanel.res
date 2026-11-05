@@ -4,15 +4,35 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"0"
-		"ypos"			"-33"
+		"xpos"			"17"
+		"ypos"			"7"
 		"zpos"			"2"
-		"wide"			"110"
-		"tall"			"110"
+		"wide"			"76"
+		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_blue_bg"
+		"scaleImage"		"1"
+
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
+
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
+	}
+
+	"TimePanelDivider"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TimePanelDivider"
+		"xpos"			"46"
+		"ypos"			"10"
+		"zpos"			"10"
+		"wide"			"2"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TanLight"
 	}
 
 	"TimePanelProgressBar"

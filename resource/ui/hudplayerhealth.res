@@ -5,18 +5,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"-184"
-		"ypos"			"r121"
+		"xpos"			"-194"
+		"ypos"			"r101"
 		"zpos"			"2"
-
 		"xpos_minmode"	"-105"
-
 		"wide"			"f0"
 		"tall"			"120"
-
 		"visible"		"1"
 		"enabled"		"1"	
-
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -26,61 +22,51 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBG"
-
-        "xpos"          "188"
-        "ypos"          "34"
+        "xpos"          "192"
+        "ypos"          "14"
         "zpos"          "2"
-
         "wide"          "110"
         "tall"          "110"
-
         "visible"       "1"
         "enabled"       "1"
-
-        "image"         "replay/thumbnails/mvm/health_blue_alt"
+        "image"         "replay/thumbnails/hud/health_blue"
         "scaleImage"    "1"
-        "teambg_2"      "replay/thumbnails/mvm/health_red_alt"
-        "teambg_3"      "replay/thumbnails/mvm/health_blue_alt"
+        "teambg_2"      "replay/thumbnails/hud/health_red"
+        "teambg_3"      "replay/thumbnails/hud/health_blue"
 	}
 	"NewPlayerStatusClassImageBGLow"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBGLow"
-
-        "xpos"          "188"
-        "ypos"          "34"
+        "xpos"          "0"
+        "ypos"          "0"
         "zpos"          "1"
-
         "wide"          "110"
         "tall"          "110"
-
         "visible"       "1"
         "enabled"       "1"
-
 		"alpha"			"0"
-
-        "image"         "replay/thumbnails/mvm/health_alt_low"
+        "image"         "replay/thumbnails/hud/health_low"
         "scaleImage"    "1"
+
+        "pin_to_sibling"	"NewPlayerStatusClassImageBG"
 	}
 	"NewPlayerStatusClassImageBGHigh"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBGHigh"
-
-        "xpos"          "188"
-        "ypos"          "34"
+        "xpos"          "0"
+        "ypos"          "0"
         "zpos"          "1"
-
         "wide"          "110"
         "tall"          "110"
-
         "visible"       "1"
         "enabled"       "1"
-
 		"alpha"			"0"
-
-        "image"         "replay/thumbnails/mvm/health_alt_high"
+        "image"         "replay/thumbnails/hud/health_over"
         "scaleImage"    "1"
+
+        "pin_to_sibling"	"NewPlayerStatusClassImageBG"
 	}
 
 	"PlayerStatusHealthImage"
@@ -92,7 +78,7 @@
 		"zpos"			"4"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_color"
 		"scaleImage"	"1"
@@ -101,13 +87,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"3"
-		"ypos"			"3"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"60"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"replay/thumbnails/health_inner"
 		"scaleImage"	"1"
 
@@ -123,7 +109,7 @@
 		"wide"			"55"
 		"tall"			"55"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"replay/thumbnails/health_aura"
 		"scaleImage"	"1"
 	}
@@ -132,8 +118,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"189"
-		"ypos"			"72"
+		"xpos"			"194"
+		"ypos"			"52"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"35"
@@ -166,19 +152,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-13"
-		"ypos"			"-21"
+		"xpos"			"-73"
+		"ypos"			"-20"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"15"
+		"wide"			"36"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmallShadow"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"PlayerStatusHealthImage"
+		"pin_to_sibling"	"NewPlayerStatusClassImageBG"
 	}
 
 	"PlayerStatusBleedImage"

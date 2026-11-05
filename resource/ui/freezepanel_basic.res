@@ -248,8 +248,8 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"40"
-			"ypos"			"162"
+			"xpos"			"48"
+			"ypos"			"165"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
@@ -258,7 +258,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"		"North-West"
+			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
@@ -267,7 +267,7 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"8"
+			"xpos"			"10"
 			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"42"
@@ -285,7 +285,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallBoldShadow"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"
@@ -296,7 +296,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"		"Left"
+			"textAlignment"		"west"
 		}
 
 		"AvatarImage"
