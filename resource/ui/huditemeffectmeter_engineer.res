@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r176"
-		"ypos"			"r66"
+		"xpos"			"r104"
+		"ypos"			"r116"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -19,25 +19,25 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
+		"xpos"			"1"
 		"ypos"			"-17"
 		"zpos"			"0"
 		"wide"			"110"
 		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/mvm/meter_1_blue"
+		"image"			"replay/thumbnails/hud/top_meter_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/meter_1_red"
-		"teambg_3"		"replay/thumbnails/mvm/meter_1_blue"
+		"teambg_2"		"replay/thumbnails/hud/top_meter_red"
+		"teambg_3"		"replay/thumbnails/hud/top_meter_blue"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"34"
-		"ypos"					"39"
+		"xpos"					"26"
+		"ypos"					"40"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"HudFontSmallestShadow"
 	}
 
 	"ItemEffectMeter"
@@ -60,8 +60,6 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
@@ -73,14 +71,47 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
+
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"-65"
+		"ypos"			"-47"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_kritz"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"ItemEffectMeterBG"
+	}
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterIconShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"9"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_kritz_shadow"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"ItemEffectMeterIcon"
+	}
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"32"
-		"ypos"					"19"
+		"xpos"					"26"
+		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"
@@ -92,6 +123,29 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumProfessor"
+		"font"					"HudFontMedium"
+		"fgcolor"				"TanLight"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"30"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontMedium"
+		"fgcolor"				"TanDarker"
+
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }
