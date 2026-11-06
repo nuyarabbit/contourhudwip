@@ -21,17 +21,33 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundIcon"
-		"xpos"			"-39"
-		"ypos"			"-39"
-		"zpos"			"1"
-		"wide"			"35"
-		"tall"			"35"
+		"xpos"			"-4"
+		"ypos"			"-26"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/glyph_health"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"Background"
+	}
+	"BackgroundIconFill"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundIconFill"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"9"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_fill"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"BackgroundIcon"
 	}
 
 	"BackgroundHigh"

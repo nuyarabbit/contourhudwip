@@ -39,17 +39,33 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBGIcon"
-		"xpos"			"-36"
-		"ypos"			"-39"
-		"zpos"			"1"
-		"wide"			"35"
-		"tall"			"35"
+		"xpos"			"-85"
+		"ypos"			"-26"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/glyph_health"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"NewPlayerStatusClassImageBG"
+	}
+	"HudWeaponAmmoBGIconFill"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBGIconFill"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"9"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_fill"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"NewPlayerStatusClassImageBGIcon"
 	}
 
 	"NewPlayerStatusClassImageBGLow"
@@ -170,10 +186,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-73"
-		"ypos"			"-20"
+		"xpos"			"8"
+		"ypos"			"12"
 		"zpos"			"10"
-		"wide"			"36"
+		"wide"			"37"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -182,7 +198,7 @@
 		"font"			"HudFontSmallShadow"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"NewPlayerStatusClassImageBG"
+		"pin_to_sibling"	"NewPlayerStatusClassImageBGIcon"
 	}
 
 	"PlayerStatusBleedImage"
