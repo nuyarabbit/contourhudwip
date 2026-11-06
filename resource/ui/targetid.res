@@ -96,7 +96,7 @@
 		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"15"
+		"tall"			"16"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -123,18 +123,32 @@
 		"TextColor"		"HudOffWhite"
 	}	
 	
+	"TargetIDDivider"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TargetIDDivider"
+		"xpos"			"40"
+		"ypos"			"4"
+		"zpos"			"10"
+		"wide"			"2"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TanLight"
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"ypos"			"20"
+		"xpos"			"46"
+		"ypos"			"19"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
+		"image"			"replay/thumbnails/hud/glyph_ammo"
 		"scaleImage"	"1"
 	}
 	

@@ -58,15 +58,12 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"	"TFFontMedium"
+		"font"			"HudFontSmallBoldShadow"
 		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"31"
-		"ypos_minmode"	"51"
+		"ypos"			"34"
 		"zpos"			"1"
-		"wide"			"110"
-		"tall"			"24"
+		"wide"			"150"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -81,12 +78,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
-		"font_minmode"	"TFFontMedium"
+		"font"			"HUDFontSmallest"
 		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"45"
-		"ypos_minmode"	"58"
+		"ypos"			"46"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -104,7 +98,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"20"
+		"xpos"			"11"
 		"xpos_minmode"	"10"
 		"ypos"			"30"
 		"ypos_minmode"	"45"
@@ -118,5 +112,20 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
-	
+
+	"DisguisePanelDivider"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"DisguisePanelDivider"
+		"xpos"			"47"
+		"ypos"			"34"
+		"zpos"			"10"
+		"wide"			"2"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TanLight"
+	}
+
+
 }
