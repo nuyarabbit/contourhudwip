@@ -99,7 +99,7 @@
 		"tall"				"110"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/mvm/timer_active"
+		"image"				"replay/thumbnails/hud/objectives_timepanel_active_bg"
 		"scaleImage"		"1"
 	}
 }

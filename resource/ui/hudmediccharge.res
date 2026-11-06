@@ -17,6 +17,23 @@
 		"teambg_3"		"replay/thumbnails/hud/ammo_blue"
 	}
 
+	"BackgroundIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundIcon"
+		"xpos"			"-39"
+		"ypos"			"-39"
+		"zpos"			"1"
+		"wide"			"35"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_health"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"Background"
+	}
+
 	"BackgroundHigh"
 	{
 		"ControlName"	"CTFImagePanel"

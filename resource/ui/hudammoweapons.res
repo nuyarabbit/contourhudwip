@@ -34,6 +34,23 @@
 		"pin_to_sibling"	"HudWeaponAmmoBG"
 	}
 
+	"HudWeaponAmmoBGIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBGIcon"
+		"xpos"			"-39"
+		"ypos"			"-39"
+		"zpos"			"1"
+		"wide"			"35"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/glyph_ammo"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"HudWeaponAmmoBG"
+	}
+
 	"NewHudWeaponLowAmmoImage"
 	{
 		"ControlName"	"CTFImagePanel"

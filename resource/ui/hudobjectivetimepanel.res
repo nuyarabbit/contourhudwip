@@ -70,7 +70,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestShadow"
 
 	}
 	"WaitingForPlayersBG"
@@ -138,7 +138,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallestBoldShadow"
 	}			
 	"SuddenDeathBG"
 	{
@@ -171,7 +171,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallestBoldShadow"
 	}	
 	"SetupBG"
 	{
@@ -203,7 +203,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"fgcolor_override"	"TanLight"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumSmallShadow"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -230,7 +230,7 @@
 		"tall"				"110"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/mvm/timer_active"
+		"image"				"replay/thumbnails/hud/objectives_timepanel_active_bg"
 		"scaleImage"		"1"
 	}
 }
