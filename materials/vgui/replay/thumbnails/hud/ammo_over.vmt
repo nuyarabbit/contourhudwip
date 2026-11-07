@@ -1,7 +1,6 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/hud/ammo_mask"
-	"$color"		"{255 177 78}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

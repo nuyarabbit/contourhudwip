@@ -4,7 +4,7 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r220"
+		"xpos"			"r235"
 
 		"xpos_minmode"			"r280"
 	}
@@ -12,10 +12,10 @@
 	"ItemEffectMeterBG"
 	{
 		"xpos"			"10"
-		"image"			"replay/thumbnails/mvm/meter_2_blue"
+		"image"			"replay/thumbnails/hud/meter_misc2_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/mvm/meter_2_red"
-		"teambg_3"		"replay/thumbnails/mvm/meter_2_blue"
+		"teambg_2"		"replay/thumbnails/hud/meter_misc2_red"
+		"teambg_3"		"replay/thumbnails/hud/meter_misc2_blue"
 	}
 
 	"ItemEffectMeterLabel"
@@ -26,6 +26,7 @@
 
 	"ItemEffectMeter"
 	{
-		"wide"					"36"
+		"xpos"					"49"
+		"wide"					"33"
 	}
 }

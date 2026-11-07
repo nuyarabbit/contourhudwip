@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"-7"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -287,7 +287,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-55"	[$WIN32]
-		"ypos"			"r20"	[$WIN32]
+		"ypos"			"r26"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"110"	[$WIN32]
 		"tall"			"16"
@@ -297,7 +297,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"fgcolor"		"TanLight"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"TanDarkerTransparent"

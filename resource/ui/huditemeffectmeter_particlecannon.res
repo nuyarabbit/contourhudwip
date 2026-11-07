@@ -32,10 +32,10 @@
 		"teambg_3"		"replay/thumbnails/hud/top_meter_blue"
 	}
 
-	"AtomIcon"
+	"ItemEffectMeterIcon"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIcon"
+		"fieldName"		"ItemEffectMeterIcon"
 		"xpos"			"6"
 		"ypos"			"10"
 		"zpos"			"2"
@@ -46,10 +46,10 @@
 		"image"			"replay/thumbnails/icons/atom_tanlight"
 		"scaleImage"	"1"
 	}
-	"AtomIconShadow"
+	"ItemEffectMeterIconShadow"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIconShadow"
+		"fieldName"		"ItemEffectMeterIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -60,7 +60,7 @@
 		"image"			"replay/thumbnails/icons/atom_tandarker"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"	"AtomIcon"
+		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 
 	"ItemEffectMeterLabel"
