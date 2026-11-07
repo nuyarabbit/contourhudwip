@@ -81,7 +81,7 @@
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"256"
+			"wide"			"262"
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
@@ -99,7 +99,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"FreezePanelDivider"
-			"xpos"			"48"
+			"xpos"			"47"
 			"ypos"			"164"
 			"zpos"			"10"
 			"wide"			"2"
@@ -114,7 +114,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"55"
+			"xpos"			"54"
 			"ypos"			"165"
 			"zpos"			"1"
 			"wide"			"252"
@@ -169,7 +169,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"56"
+			"xpos"			"55"
 			"ypos"			"174"
 			"zpos"			"0"
 			"wide"			"14"
@@ -230,7 +230,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"HudFontMediumSmallShadow"
 				"xpos"			"134"
 				"ypos"			"10"
 				"zpos"			"6"
@@ -276,17 +276,23 @@
 			
 		"ScreenshotPanelBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"ScreenshotPanelBG"
 			"xpos"			"0"
-			"ypos"			"8"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"38"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/freezecam_black_bg"
+			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
+
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"
 		}
 		"ScreenshotIcon"
 		{
