@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
@@ -32,10 +32,10 @@
 		"teambg_3"		"replay/thumbnails/hud/top_meter_blue"
 	}
 
-	"AtomIcon"
+	"ItemEffectMeterIcon"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIcon"
+		"fieldName"		"ItemEffectMeterIcon"
 		"xpos"			"6"
 		"ypos"			"10"
 		"zpos"			"2"
@@ -43,13 +43,13 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/icons/atom_tanlight"
+		"image"			"replay/thumbnails/hud/glyph_atom"
 		"scaleImage"	"1"
 	}
-	"AtomIconShadow"
+	"ItemEffectMeterIconShadow"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIconShadow"
+		"fieldName"		"ItemEffectMeterIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -57,10 +57,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/icons/atom_tandarker"
+		"image"			"replay/thumbnails/hud/glyph_atom_shadow"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"	"AtomIcon"
+		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 
 	"ItemEffectMeterLabel"

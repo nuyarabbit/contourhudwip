@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/icons/scope"
-	"$color"		"{235 226 202}"
+	"$basetexture"	"vgui/replay/thumbnails/hud/glyph_kills_head"
+	"$color"		"{50 47 46}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

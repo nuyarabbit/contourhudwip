@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/icons/kills_head"
-	"$color"		"{46 43 42}"
+	"$basetexture"	"vgui/replay/thumbnails/hud/glyph_rage"
+	"$color"		"{50 47 46}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

@@ -90,7 +90,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-6"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"f0"
 		"tall"			"480"
@@ -104,7 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-6"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"f0"
 		"tall"			"480"
