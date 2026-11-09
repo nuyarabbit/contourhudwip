@@ -43,7 +43,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/icons/atom_tanlight"
+		"image"			"replay/thumbnails/hud/glyph_atom"
 		"scaleImage"	"1"
 	}
 	"AtomIconShadow"
@@ -57,7 +57,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/icons/atom_tandarker"
+		"image"			"replay/thumbnails/hud/glyph_atom_shadow"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"AtomIcon"

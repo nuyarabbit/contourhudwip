@@ -3661,7 +3661,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/hud/color_panel_brown"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3673,7 +3674,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_brown_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_brown_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3685,7 +3687,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/hud/color_panel_brown"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3697,7 +3700,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_red_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3709,7 +3713,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_red_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3721,7 +3726,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_red"
+			"image"					"replay/thumbnails/hud/color_panel_red"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3733,7 +3739,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_red_more_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3745,7 +3752,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/hud/color_panel_blue"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3757,7 +3765,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_blu_more_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_blue_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3769,7 +3778,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_blu_opaque"
+			"image"					"replay/thumbnails/hud/color_panel_blue_opaque"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3781,7 +3791,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_clear"
+			"image"					"replay/thumbnails/hud/color_panel_clear"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3794,6 +3805,7 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"replay/thumbnails/hud/squircle_brown"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
@@ -3805,7 +3817,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"replay/thumbnails/mvm/border/panel_croptop_brown"
+			"image"					"replay/thumbnails/hud/color_panel_brown_croptop"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 

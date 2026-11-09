@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_1"		"replay/thumbnails/hud/color_panel_brown"
+		"teambg_2"		"replay/thumbnails/hud/color_panel_red"
+		"teambg_3"		"replay/thumbnails/hud/color_panel_blu"
 		
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/hud/color_panel_blu"
 		
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
@@ -59,7 +59,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
+		"image"			"replay/thumbnails/hud/color_panel_red"
 
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
