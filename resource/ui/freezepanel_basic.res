@@ -76,8 +76,14 @@
 
 		"FreezePanelBG"
 		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
+		"FreezePanelBG1"
+		{
 			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FreezePanelBG"
+			"fieldName"		"FreezePanelBG1"
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"0"
@@ -85,16 +91,20 @@
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
-			
+			"image"			"replay/thumbnails/hud/color_panel_blue"
+			"scaleImage"	"1"
+			"teambg_1"		"replay/thumbnails/hud/color_panel_brown"
+			"teambg_2"		"replay/thumbnails/hud/color_panel_blue"
+			"teambg_3"		"replay/thumbnails/hud/color_panel_red"
+			"proportionaltoparent"	"1"
+
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 
 			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
 		}
-		
+
 		"FreezePanelDivider"
 		{
 			"ControlName"		"EditablePanel"

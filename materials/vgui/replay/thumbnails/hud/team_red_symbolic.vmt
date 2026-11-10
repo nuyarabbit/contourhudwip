@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/icons/team_logo_blue"
+	"$basetexture"	"vgui/replay/thumbnails/hud/team_red_symbolic"
 	"$color"		"{235 226 202}"
 	"$translucent" "1"
 	"$ignorez" "1"

@@ -507,7 +507,7 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
+		"wide"	 "f0"
 		"tall"	 "480"
 	}
 
