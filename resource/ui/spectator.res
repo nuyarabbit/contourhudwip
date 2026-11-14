@@ -97,9 +97,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"NewBottomBar"
 		"xpos"			"0"
-		"ypos"			"r60"
+		"ypos"			"r26"
 		"zpos"			"-100"
-		"tall"			"70"		// this needs to match the size of BottomBar
+		"tall"			"26"		// this needs to match the size of BottomBar
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -113,7 +113,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"NewBottomBarLine"
 		"xpos"			"0"
-		"ypos"			"r60"
+		"ypos"			"r26"
 		"zpos"			"-100"
 		"tall"			"3"		// this needs to match the size of BottomBar
 		"wide"			"f0"

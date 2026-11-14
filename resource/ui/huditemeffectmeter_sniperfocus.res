@@ -3,10 +3,10 @@
 {
 	"ItemEffectMeterIcon"
 	{
-		"image"			"replay/thumbnails/icons/scope_tanlight"
+		"image"			"replay/thumbnails/hud/glyph_scope"
 	}
 	"ItemEffectMeterIconShadow"
 	{
-		"image"			"replay/thumbnails/icons/scope_tandarker"
+		"image"			"replay/thumbnails/hud/glyph_scope_shadow"
 	}
 }

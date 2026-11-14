@@ -1,50 +1,45 @@
+#base	"../../_fixes/resource/ui/scoreboard.res"
 "Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
-		"xpos"			"cs-0.5"
-		"ypos"			"31"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"medal_width"		"28"
-		"medal_column_width" "18"
-		"avatar_width"		"28"
-		"spacer"			"5"
-		"name_width"		"118"
-		"nemesis_width"		"15"
-		"class_width"		"15"
-		"score_width"		"25"
-		"ping_width"		"15"
-		"killstreak_width"	"18"
-		"killstreak_image_width" "15"
+		"ControlName"				"CTFClientScoreBoardDialog"
+		"fieldName"					"scoreinfo"
+		"xpos"						"cs-0.5"
+		"ypos"						"31"
+		"wide"						"f0"
+		"tall"						"f0"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"medal_width"				"0" // Ignored
+		"medal_column_width" 		"0" // 22
+		"avatar_width"				"25"
+		"spacer"					"4"
+		"name_width"				"0" // Ignored
+		"nemesis_width"				"15"
+		"class_width"				"20"
+		"score_width"				"25"
+		"ping_width"				"25"
+		"killstreak_width"			"20"
+		"killstreak_image_width"	"15"
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-300"
 		"ypos"			"29"
-		"wide"			"290"
+		"wide"			"300"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/color_panel_blue"
+		"border"			"TFFatLineBorderBlueBG"
 		"scaleImage"		"1"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"
-
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"
 
 		if_mvm
 		{
@@ -58,7 +53,7 @@
 		"fieldName"		"BlueMainBG"
 		"xpos"			"0"
 		"ypos"			"-52"
-		"wide"			"290"
+		"wide"			"300"
 		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -126,24 +121,18 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"c10"
+		"xpos"			"c0"
 		"ypos"			"29"
-		"wide"			"290"
+		"wide"			"300"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/color_panel_red"
+		"border"			"TFFatLineBorderRedBG"
 		"scaleImage"		"1"
-
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"
-
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"
 
 		if_mvm
 		{
@@ -156,7 +145,7 @@
 		"fieldName"		"RedMainBG"
 		"xpos"			"0"
 		"ypos"			"-52"
-		"wide"			"290"
+		"wide"			"300"
 		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -178,7 +167,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
 		"fieldName"		"BlueTeamImage"
-		"xpos"			"-225"
+		"xpos"			"-235"
 		"ypos"			"56"
 		"zpos"			"20"
 		"wide"			"58"
@@ -509,8 +498,13 @@
 	}
 	"ServerTimeLeftValue"
 	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"NewServerTimeLeftValue"
+	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftValue"
+		"fieldName"		"NewServerTimeLeftValue"
 		"font"			"ScoreboardSmall"
 		"labelText"		"%servertime%"
 		"textAlignment"		"west"
@@ -524,7 +518,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
-		
+
 		"pin_to_sibling"	"ServerTimeLeftLabel"
 
 		if_mvm
@@ -561,7 +555,7 @@
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"20"
-		"wide"			"280"
+		"wide"			"290"
 		"tall"			"280"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -587,7 +581,7 @@
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"20"
-		"wide"			"280"
+		"wide"			"290"
 		"tall"			"280"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -718,28 +712,26 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
-		"xpos"			"-10"
-		"ypos"			"185"
-		"zpos"			"10"		
-		"wide"			"130"
-		"tall"			"260"
+
+		"xpos"			"0"
+        "ypos"          "r175"
+        "zpos"          "0"
+
+		"xpos_minmode"			"0"
+
+        "wide"          "125"
+        "tall"          "175"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
-				
 		"model"
 		{
 			"force_pos"	"1"
@@ -747,14 +739,17 @@
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
+
 			"origin_x" "200"
 			"origin_y" "0"
 			"origin_z" "-60"
+
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
+
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -765,93 +760,99 @@
 			}
 			"Scout"
 			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_y"		"145"
+				"fov"			"18"
+				"angles_x"		"-10"
+				"angles_y"		"210"
 				"angles_z"		"0"
-				"origin_x"		"105"
-				"origin_y"		"4"
-				"origin_z"		"-82"
+				"origin_x"		"140"
+				"origin_y"		"0"
+				"origin_z"		"-70"
 			}
 			"Sniper"
 			{
-				"fov"			"25"
+				"fov"			"18"
 				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-80"
 			}
 			"Soldier"
 			{
-				"fov"			"25"
+				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_y"		"195"
 				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
+				"origin_x"		"140"
+				"origin_y"		"0"
+				"origin_z"		"-75"
 			}
 			"Demoman"
 			{
-				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_y"		"200"
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"210"
 				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
-				"origin_z"		"-93"
+				"origin_x"		"140"
+				"origin_y"		"-3"
+				"origin_z"		"-73"
 			}
 			"Medic"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"178"
+
+				"angles_x"		"-10"
+				"angles_y"		"210"
 				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
+
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-80"
 			}
 			"Heavy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"200"
+
+				"angles_x"		"-10"
+				"angles_y"		"210"
 				"angles_z"		"0"
-				"origin_x"		"200"
+
+				"origin_x"		"140"
 				"origin_y"		"0"
-				"origin_z"		"-102"
+				"origin_z"		"-75"
 			}
 			"Pyro"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"172"
+
+				"angles_x"		"-10"
+				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
+
+				"origin_x"		"140"
+				"origin_y"		"5"
+				"origin_z"		"-70"
 			}
 			"Spy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_x"		"-10"
+				"angles_y"		"210"
 				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"0"
-				"origin_z"		"-95"
+				"origin_x"		"140"
+				"origin_y"		"-1"
+				"origin_z"		"-77"
 			}
 			"Engineer"
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_y"		"210"
 				"angles_z"		"0"
 				"origin_x"		"140"
-				"origin_y"		"-2"
-				"origin_z"		"-82"
+				"origin_y"		"0"
+				"origin_z"		"-70"
 			}
 		}
 	}

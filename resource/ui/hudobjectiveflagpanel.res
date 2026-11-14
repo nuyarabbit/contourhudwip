@@ -347,6 +347,11 @@
 			"xpos"		"c-80"
 		}
 		
+		"if_mvm"
+		{
+			"ypos"	"r137"
+		}
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"

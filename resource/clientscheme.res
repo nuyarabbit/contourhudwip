@@ -3663,11 +3663,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_brown"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderOpaque
 		{
@@ -3676,11 +3676,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_brown_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorder
 		{
@@ -3689,11 +3689,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_brown"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3702,11 +3702,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -3715,11 +3715,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderRedBG
 		{
@@ -3728,11 +3728,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_red"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -3741,11 +3741,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_red_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -3754,11 +3754,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_blue"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
@@ -3767,11 +3767,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_blue_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -3780,11 +3780,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_blue_opaque"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderClearBG
 		{
@@ -3793,11 +3793,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_clear"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		FlatBottomBrownSquircle
 		{
@@ -3806,11 +3806,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/squircle_brown"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 		TFFatLineBorderCropTop
 		{
@@ -3819,11 +3819,11 @@ Scheme
 
 			"image"					"replay/thumbnails/hud/color_panel_brown_croptop"
 
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 
 		ToolTipBorder

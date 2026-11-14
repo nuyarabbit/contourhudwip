@@ -73,7 +73,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
-			"xpos"			"39"
+			"xpos"			"36"
 			"ypos"			"11"
 			"zpos"			"2"
 			"wide"			"28"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
-			"xpos"			"39"
+			"xpos"			"36"
 			"ypos"			"11"
 			"zpos"			"2"
 			"wide"			"28"

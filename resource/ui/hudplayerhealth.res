@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBG"
-        "xpos"          "192"
+        "xpos"          "c-80"
         "ypos"          "14"
         "zpos"          "2"
         "wide"          "110"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"NewPlayerStatusClassImageBGIcon"
-		"xpos"			"-85"
+		"xpos"			"-89"
 		"ypos"			"-26"
 		"zpos"			"10"
 		"wide"			"20"
@@ -152,7 +152,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"194"
+        "xpos"          "c-77"
 		"ypos"			"52"
 		"zpos"			"5"
 		"wide"			"100"

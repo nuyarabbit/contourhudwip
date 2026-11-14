@@ -68,8 +68,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r270"
-		"ypos"			"93"		
+		"xpos"			"r550"
+		"ypos"			"200"
 		"wide"			"267"		
 		"tall"			"200"		
 		"visible"		"1"
@@ -87,7 +87,7 @@
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"262"
+			"wide"			"258"
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
@@ -110,10 +110,10 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"FreezePanelDivider"
 			"xpos"			"47"
-			"ypos"			"164"
+			"ypos"			"162"
 			"zpos"			"10"
 			"wide"			"2"
-			"tall"			"25"
+			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"TanLight"
@@ -125,7 +125,7 @@
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"54"
-			"ypos"			"165"
+			"ypos"			"164"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
@@ -143,7 +143,7 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"10"
+			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"42"
@@ -196,7 +196,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"0"		// FIXME
-			"ypos"			"130"
+			"ypos"			"124"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
@@ -206,7 +206,7 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"NemesisPanelBG"
-				"xpos"			"95"
+				"xpos"			"33"
 				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"161"
@@ -216,17 +216,17 @@
 				"image"			"../hud/color_panel_brown"
 				"scaleImage"		"1"	
 				
-				"src_corner_height"		"40"				// pixels inside the image
-				"src_corner_width"		"40"
+				"src_corner_height"		"23"				// pixels inside the image
+				"src_corner_width"		"23"
 
-				"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"10"
+				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"6"
 			}
 			"NemesisIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"NemesisIcon"
-				"xpos"			"95"
+				"xpos"			"33"
 				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"36"
@@ -241,8 +241,8 @@
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
 				"font"			"HudFontMediumSmallShadow"
-				"xpos"			"134"
-				"ypos"			"10"
+				"xpos"			"73"
+				"ypos"			"11"
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
@@ -251,7 +251,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
-				"textAlignment"		"west"
+				"textAlignment"		"center"
 			}
 			"NemesisLabel2"
 			{	

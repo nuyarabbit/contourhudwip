@@ -473,7 +473,7 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"HudFontSmallest"
+		"TextFont"		"TextTooltipFont"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -704,31 +704,41 @@
 
 	HudVoiceStatus
 	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145"
-		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
+		"fieldName"				"HudVoiceStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"r130"
+		"ypos"					"0"
+		"wide"					"150"
+		"tall"					"340"
 
-		"item_wide"	"135"
-		
-		"show_avatar"		"0"
-		
-		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-		
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-		
-		"text_xpos"			"33"
+		"item_wide"				"120"
+		"item_tall"				"20"
+
+		"show_avatar"			"1"
+		"show_friend"			"0"
+		"avatar_xpos"			"2"
+		"avatar_ypos"			"2"
+		"avatar_wide"			"16"
+		"avatar_tall"			"16"
+
+		"show_medal"			"1"
+		"medal_xpos"			"2"
+		"medal_ypos"			"2"
+		"medal_wide"			"8"
+		"medal_tall"			"16"
+
+		"show_dead_icon"		"1"
+		"dead_xpos"				"2"
+		"dead_ypos"				"2"
+		"dead_wide"				"16"
+		"dead_tall"				"16"
+
+
+		"show_voice_icon"		"0"
+
+		"text_xpos"				"24"
+		"text_ypos"				"0"
 	}
 
 	HudHintDisplay

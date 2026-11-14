@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"r108"
+        "xpos"          "c170"
 		"ypos"			"r88"
 		"zpos"			"1"
 		"wide"			"110"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundIcon"
-		"xpos"			"-4"
+		"xpos"			"0"
 		"ypos"			"-26"
 		"zpos"			"10"
 		"wide"			"20"

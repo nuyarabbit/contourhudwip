@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"r181"
 		"ypos"			"r65"
+		"zpos"			"200"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -32,11 +33,11 @@
 		"teambg_3"		"replay/thumbnails/hud/meter_misc1_alt_blue"
 	}
 
-	"AtomIcon"
+	"ItemEffectMeterIcon"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIcon"
-		"xpos"			"13"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"72"
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"24"
@@ -46,10 +47,10 @@
 		"image"			"replay/thumbnails/hud/glyph_atom"
 		"scaleImage"	"1"
 	}
-	"AtomIconShadow"
+	"ItemEffectMeterIconShadow"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AtomIconShadow"
+		"fieldName"		"ItemEffectMeterIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -60,15 +61,15 @@
 		"image"			"replay/thumbnails/hud/glyph_atom_shadow"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"	"AtomIcon"
+		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"30"
-		"ypos"					"38"
+		"xpos"					"32"
+		"ypos"					"37"
 		"zpos"					"2"
 		"wide"					"47"
 		"tall"					"17"
@@ -90,11 +91,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"30"
-		"ypos"					"31"
+		"xpos"					"32"
+		"ypos"					"32"
 		"zpos"					"1"
 		"wide"					"47"
-		"tall"					"9"
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

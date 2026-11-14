@@ -1,6 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/hud/health_mask"
+	"$color"		"{235 226 202}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
